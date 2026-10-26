@@ -1,0 +1,543 @@
+PROMPTER FOR RESTEN: bilde 32–38 på nytt, og bilde 73–172
+Godkjent og ferdig: 1–31 og 39–72. Lag ett bilde per melding. Nummeret og filnavnet i overskriften skal ikke endres (brukes ved import).
+Start en NY chat i prosjektet for hver 15 bilder, og legg ved de tre godkjente referansebildene i første melding i hver ny chat. Da glir ikke stilen.
+Hvert bilde skal ha reisegruppen (tre barn med stråhatter) nederst til venstre, og solen skal være synlig og ikke kuttet.
+======================================================================
+
+### DEL 1: LAG OM (stilen hadde glidd)
+
+Bilde 32/172 | berlin_s1.png | Berlin: Berlinmuren
+A section of the Berlin Wall: a long concrete wall covered with colorful graffiti murals (hearts, abstract shapes, flowers, no readable text), a grassy strip and the Spree river beside it.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 33/172 | berlin_s2.png | Berlin: Fjernsynstårnet
+Berlin TV Tower: a very tall slender concrete tower with a large silver sphere with windows near the top and a tall antenna spire above, city buildings of Alexanderplatz below.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 34/172 | wien_s0.png | Wien: Riesenrad
+The Riesenrad in Vienna: a giant red Ferris wheel with old red-and-wooden cabins hanging from its spokes, in the Prater amusement park with small booths and trees.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 35/172 | wien_s1.png | Wien: Schönbrunn
+Schönbrunn Palace in Vienna: a long baroque palace painted Schönbrunn yellow with white window frames and a green roof line, big formal garden with a fountain, and the Gloriette colonnade on the hill behind.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 36/172 | wien_s2.png | Wien: Statsoperaen
+Vienna State Opera: a neo-Renaissance cream stone building with a ground-floor arcade of arches, a loggia with arched windows, a green copper roof with statues, people walking in front.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 37/172 | paris_s1.png | Paris: Louvre
+The Louvre Palace in Paris: a grand stone palace with ornate carved facade, mansard roofs with dormer windows, statues and a large open courtyard; do NOT include the modern glass pyramid.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 38/172 | paris_s2.png | Paris: Notre-Dame
+Notre-Dame cathedral in Paris: a gray stone Gothic cathedral with two square towers on the west front, three arched portals with sculptures, a big round rose window, flying buttresses and a pointed spire on the roof, by the Seine.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+### DEL 2: NYE BILDER 73–172
+
+Bilde 73/172 | nai_s0.png | Nairobi: Nairobi nasjonalpark
+Nairobi National Park: a male lion with a big mane resting on yellow savanna grass, a flat-topped acacia tree, and the skyscrapers of the Nairobi skyline visible in the distance.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 74/172 | nai_s1.png | Nairobi: Sjiraffsenteret
+The Giraffe Centre in Nairobi: a tall Rothschild's giraffe (pale patches, white stockings on the legs) bending its long neck to a wooden feeding platform where a child holds out a handful of pellets.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 75/172 | nai_s2.png | Nairobi: Elefantbarnehjemmet
+Elephant orphanage in Nairobi: baby elephants drinking milk from big bottles held by keepers in green coats, red dust, a muddy waterhole, trees.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 76/172 | zan_hero.png | Zanzibar: Stone Town og dhow
+Zanzibar scene: traditional wooden dhow boats with triangular sails in the turquoise harbour, Stone Town waterfront with white coral-stone buildings and the white House of Wonders tower behind, palm trees.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 77/172 | zan_s0.png | Zanzibar: Stone Town
+An alley in Stone Town, Zanzibar: white coral-stone buildings with carved wooden balconies, a big dark carved wooden door with brass studs, a man on a bicycle, hanging flowers.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 78/172 | zan_s1.png | Zanzibar: Krydderfarmer
+A Zanzibar spice farm: a clove tree with small pink buds, a basket of vanilla pods, cinnamon sticks, black pepper vines and nutmeg, a farmer in a straw hat showing spices.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 79/172 | zan_s2.png | Zanzibar: Strendene
+A Zanzibar beach: soft white sand, turquoise shallow water, leaning coconut palms, a small wooden fishing dhow with a triangular sail near the shore.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 80/172 | vic_s0.png | Victoria Falls: Victoriafallene
+Victoria Falls: a very wide curtain of white water plunging into a deep gorge with huge clouds of mist, a rainbow in the spray, lush green rainforest, the Victoria Falls Bridge in the distance.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 81/172 | vic_s1.png | Victoria Falls: Regnbuene
+A double rainbow arching over the spray of Victoria Falls, white mist rising from the gorge, green trees on the edge.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 82/172 | vic_s2.png | Victoria Falls: Elefantene
+African elephants with big ears and tusks standing at the Zambezi river, a mother and a calf, the mist of the falls rising in the distance, green trees.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 83/172 | kapp_s0.png | Kappstaden: Taffelfjellet
+Table Mountain in Cape Town: a flat-topped mountain with a white cloud "tablecloth" spilling over the edge, Lion's Head peak beside it, the city and harbour below, blue sea.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 84/172 | kapp_s1.png | Kappstaden: Pingvinene
+African penguins on Boulders Beach: black-and-white penguins with pink patches above the eyes and a black chest band, standing among big round granite boulders on white sand, turquoise sea.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 85/172 | kapp_s2.png | Kappstaden: Robben Island
+Robben Island near Cape Town: a low flat island with a white lighthouse and old gray prison buildings, a ferry boat crossing the blue bay, Table Mountain on the horizon.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 86/172 | mad_hero.png | Antananarivo: Lemurer og baobab
+Madagascar scene: two ring-tailed lemurs with long black-and-white striped tails sitting on a thick branch, huge bottle-shaped baobab trees along a red dirt road at sunset behind.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 87/172 | mad_s0.png | Antananarivo: Lemurene
+A ring-tailed lemur sitting upright sunbathing: gray fur, white belly, black eye patches around orange eyes, a long tail striped black and white, on a rock with green leaves.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 88/172 | mad_s1.png | Antananarivo: Baobabtrærne
+The Avenue of the Baobabs in Madagascar: giant bottle-shaped baobab trees with thick smooth trunks and small flat crowns of branches along a red dirt road, golden sunset.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 89/172 | mad_s2.png | Antananarivo: Rismarkene
+Rice terraces in Madagascar: stepped green rice paddies on a hillside, a farmer in a conical straw hat, red-brick houses with thatched roofs, blue sky.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 90/172 | dubai_s0.png | Dubai: Burj Khalifa
+The Burj Khalifa in Dubai: the world's tallest skyscraper, a silver-blue glass tower tapering upward in stepped setbacks in a spiral Y-shape to a thin spire, with the Dubai fountain and lower skyscrapers around it.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 91/172 | dubai_s1.png | Dubai: Ørkensafari
+Desert safari near Dubai: a 4x4 jeep driving over golden sand dunes, a camel with a rider on the next dune, a few palm trees at an oasis, blue sky.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 92/172 | dubai_s2.png | Dubai: Palm Jumeirah
+Palm Jumeirah in Dubai seen from above: an artificial island shaped like a palm tree with a trunk and sixteen fronds, a crescent-shaped breakwater around it, the pink Atlantis hotel at the top, turquoise sea.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 93/172 | agra_s0.png | Agra: Taj Mahal
+The Taj Mahal in Agra: a white marble mausoleum with a big central onion dome, four small domed pavilions around it, a huge central arched entrance, four slender minarets at the corners, a long reflecting pool with cypress trees in front.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 94/172 | agra_s1.png | Agra: Agra fort
+Agra Fort: a massive red sandstone fort with tall crenellated walls, big arched gateway with towers, a moat, flags on top, a bit of the Taj Mahal visible far away.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 95/172 | agra_s2.png | Agra: Elefanter
+A decorated Indian elephant at a festival: gray elephant with small ears and painted patterns on the trunk and forehead, a colorful embroidered cloth on its back and a rider with a turban, tassels and bells.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 96/172 | mumbai_s0.png | Mumbai: Gateway of India
+The Gateway of India in Mumbai: a large yellow basalt triumphal arch with a big central archway and four small turrets on top, by the harbour with boats, the domed Taj hotel behind.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 97/172 | mumbai_s1.png | Mumbai: Bollywood
+Bollywood film set in Mumbai: a clapperboard (no readable text), a big old movie camera on a tripod, colorful dancers in Indian costumes in a dance pose, spotlights and a bright backdrop.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 98/172 | mumbai_s2.png | Mumbai: Lokaltogene
+A Mumbai suburban train: a long white and blue train with open doors, cheerful passengers hanging at the doors and windows, a busy platform with a vendor and a chai seller.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 99/172 | kath_s0.png | Kathmandu: Boudhanath
+Boudhanath stupa in Kathmandu: a huge white hemispherical dome with a golden square tower on top painted with Buddha's all-seeing blue eyes, thirteen gold steps in a tall spire, strings of colorful prayer flags radiating from the top, a monk walking around.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 100/172 | kath_s1.png | Kathmandu: Himalaya
+The Himalayas seen from Nepal: huge snow-covered peaks (Mount Everest massif) over green foothills, a small village with stone houses and terraced fields, clear blue sky.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 101/172 | kath_s2.png | Kathmandu: Bønneflagg
+Tibetan prayer flags: strings of small rectangular flags in blue, white, red, green and yellow fluttering between poles on a mountain pass, snowy Himalayan peaks behind.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 102/172 | bkk_s0.png | Bangkok: Wat Arun
+Wat Arun (Temple of Dawn) in Bangkok: a tall central prang tower with a corn-cob shape decorated with colorful porcelain pieces, four smaller prangs around it, steep stairs, on the bank of the Chao Phraya river.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 103/172 | bkk_s1.png | Bangkok: Flytende marked
+A floating market in Thailand: a long wooden boat full of fruit (mangoes, bananas, coconuts, dragon fruit) rowed by a woman in a conical straw hat on a narrow canal, other boats and wooden houses on stilts.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 104/172 | bkk_s2.png | Bangkok: Tuk-tuk
+A Thai tuk-tuk: a small three-wheeled open taxi painted bright green and yellow with a canopy roof, a smiling driver and a passenger, a Bangkok street with other cars.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 105/172 | sie_s0.png | Siem Reap: Angkor Wat
+Angkor Wat in Cambodia: a sandstone temple with five lotus-bud shaped towers (the middle one tallest), a long stone causeway over a moat, reflection in the water, palm trees.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 106/172 | sie_s1.png | Siem Reap: Ta Prohm
+Ta Prohm temple in Cambodia: ancient stone temple ruins with gigantic silk-cotton tree roots wrapped over the walls and doorways, moss and green jungle light.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 107/172 | sie_s2.png | Siem Reap: Lotusblomster
+Pink lotus flowers in a pond: large pink lotus blossoms and big round green leaves on the water, a butterfly, a Khmer temple tower far in the background.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 108/172 | sgp_s0.png | Singapore: Marina Bay Sands
+Marina Bay Sands in Singapore: three tall towers joined at the top by a long boat-shaped SkyPark with an infinity pool, the waterfront and the lotus-shaped ArtScience Museum, blue sky.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 109/172 | sgp_s1.png | Singapore: Supertrærne
+The Supertrees at Gardens by the Bay in Singapore: tall tree-shaped vertical gardens with metal trunks and big umbrella-like canopies covered in colorful plants, a walkway between them.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 110/172 | sgp_s2.png | Singapore: Merlion
+The Merlion in Singapore: a white statue with a lion's head and a fish body, spouting water from its mouth, by the bay with Marina Bay Sands behind.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 111/172 | bali_hero.png | Bali: Risterrasser og tempel
+Bali scene: curved green rice terraces on a hillside, a tiered Balinese temple shrine with a multi-layered thatched roof, tall coconut palms, a small offering basket in the front.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 112/172 | bali_s0.png | Bali: Risterrasser
+Rice terraces on Bali: curved stepped terraces of bright green rice following the shape of a hill, palm trees, a farmer in a conical hat, water shining in the paddies.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 113/172 | bali_s1.png | Bali: Templer
+A Balinese temple: a split gate (candi bentar) of carved gray stone, a multi-tiered shrine with a black thatched roof, small offerings of flowers and incense, frangipani trees.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 114/172 | bali_s2.png | Bali: Vulkaner
+Mount Agung volcano on Bali: a big cone-shaped volcano with a small plume of smoke at the top, green rice fields and palm trees in front, blue sky.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 115/172 | bj_s0.png | Beijing: Den kinesiske mur
+The Great Wall of China: a stone wall with crenellations and watchtowers winding along green mountain ridges into the distance, a few red autumn trees.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 116/172 | bj_s1.png | Beijing: Den forbudte by
+The Forbidden City in Beijing: a big palace hall with a double-layered golden-yellow glazed tile roof and red walls and columns, on a white marble terrace with stairs, a large stone courtyard, a bronze lion statue.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 117/172 | bj_s2.png | Beijing: Pandaer
+A giant panda sitting upright eating bamboo: black-and-white fur with black ears and eye patches, holding a bamboo stalk in its paws, green bamboo forest.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 118/172 | ulan_s0.png | Ulaanbaatar: Ger-telt
+Mongolian gers on the steppe: round white felt tents with an orange painted wooden door and a stovepipe chimney, a small herd of horses, endless green grassland and gentle hills.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 119/172 | ulan_s1.png | Ulaanbaatar: Djengis Khan
+The giant Genghis Khan equestrian statue in Mongolia: a huge shiny stainless-steel statue of a rider on a horse standing on a big round building on a grassy hill, the horse facing forward.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 120/172 | ulan_s2.png | Ulaanbaatar: Hestene
+Mongolian horses galloping: stocky shaggy ponies in brown and white galloping across the steppe, a child rider in a traditional blue robe and hat, dust and grass.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 121/172 | seoul_s0.png | Seoul: N Seoul Tower
+N Seoul Tower: a slender concrete tower with disc-shaped observation levels and an antenna, on top of the forested Namsan hill, autumn trees in red and orange, a fence of love padlocks in front.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 122/172 | seoul_s1.png | Seoul: Gyeongbokgung
+Gyeongbokgung Palace in Seoul: a traditional Korean palace hall with multi-tiered curved tile roofs, colorful painted eaves in green and red, a stone platform with stairs, guards in colorful traditional uniforms, a granite mountain behind.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 123/172 | seoul_s2.png | Seoul: Kimchi
+Korean kimchi: a brown clay jar (onggi) full of red spicy napa cabbage kimchi, chopsticks, a small plate of kimchi and a bowl of rice on a wooden table.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 124/172 | tokyo_s1.png | Tokyo: Shinkansen
+A Shinkansen bullet train in Japan: a long white train with a blue stripe and a long streamlined pointed nose speeding past, Mount Fuji in the distance.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 125/172 | tokyo_s2.png | Tokyo: Kirsebærblomster
+Cherry blossoms in a Tokyo park: trees full of pink flowers, petals falling, families having a picnic on blue mats under the trees, a pagoda and the tall Tokyo Skytree in the distance.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 126/172 | syd_s0.png | Sydney: Operahuset
+Sydney Opera House: a white building of overlapping sail-like curved roof shells covered with tiles, on a point in the harbour, the Sydney Harbour Bridge arch visible behind, blue water with ferries.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 127/172 | syd_s1.png | Sydney: Harbour Bridge
+Sydney Harbour Bridge: a large gray steel through-arch bridge (nicknamed the coathanger) with a rail and road deck, two stone pylons at the ends, small bridge climbers on the arch, a ferry and sailboats below.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 128/172 | syd_s2.png | Sydney: Kenguruer
+A red kangaroo standing upright on red dusty ground: strong tail, big hind legs, long ears, a small joey peeking from its pouch, eucalyptus trees behind.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 129/172 | alice_s0.png | Alice Springs: Uluru
+Uluru (Ayers Rock) in Australia: a massive smooth red-orange sandstone monolith with vertical grooves, rising alone from a flat red desert with green scrub, glowing at sunset.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 130/172 | alice_s1.png | Alice Springs: Outback
+The Australian outback: a red dirt road across a flat desert, a white-trunked ghost gum tree, termite mounds, spinifex grass, a road sign with a kangaroo silhouette, blue sky.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 131/172 | alice_s2.png | Alice Springs: Kenguruer
+A group of red kangaroos hopping across the red desert, one with a joey, spinifex grass and a ghost gum tree.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 132/172 | akl_s0.png | Auckland: Sky Tower
+The Sky Tower in Auckland: a very tall slender concrete tower with a round multi-level observation pod near the top and a tall antenna, Auckland skyline and harbour with sailboats below.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 133/172 | akl_s1.png | Auckland: Seilbåtene
+The City of Sails: many white sailboats on the blue Waitematā harbour, the Auckland skyline and Sky Tower behind, the volcano island Rangitoto in the distance.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 134/172 | akl_s2.png | Auckland: Vulkanene
+Rangitoto Island volcano near Auckland: a symmetrical shield volcano covered with green forest rising from the sea, a sailboat, a small ferry.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 135/172 | hnl_s0.png | Honolulu: Diamond Head
+Diamond Head crater in Honolulu: a big volcanic cone with a crater rim and green slopes, Waikiki beach and hotels in front, blue ocean, palm trees.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 136/172 | hnl_s1.png | Honolulu: Waikiki
+Waikiki Beach in Hawaii: golden sand, surfers on longboards riding gentle waves, an outrigger canoe on the beach, palm trees, Diamond Head crater behind.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 137/172 | hnl_s2.png | Honolulu: Blomsterkrans
+A Hawaiian flower lei: a thick garland of pink and white plumeria and orange orchids with a ribbon, held out in front of a beach with palm trees and a turquoise sea.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 138/172 | ny_s0.png | New York: Frihetsgudinnen
+The Statue of Liberty in New York: a green copper statue of a robed woman holding a torch high in her right hand, crown with seven rays, a tablet in her left arm, on a stone pedestal on an island, Manhattan skyline behind.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 139/172 | ny_s1.png | New York: Central Park
+Central Park in New York: a pond with an arched stone bridge, autumn trees in red and yellow, a horse-drawn carriage on a path, skyscrapers rising behind the trees.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 140/172 | ny_s2.png | New York: Empire State Building
+The Empire State Building in New York: an Art Deco skyscraper with stepped setbacks, strong vertical stone lines, a tall mooring-mast spire on top, yellow taxis in the street below.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 141/172 | dc_s0.png | Washington: Det hvite hus
+The White House in Washington: a white neoclassical mansion with a columned portico with a triangular pediment, symmetrical windows, the American flag, green lawn and a fountain.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 142/172 | dc_s1.png | Washington: Washington-monumentet
+The Washington Monument: a very tall white marble obelisk with a pointed pyramid top, a circle of American flags around its base, a long reflecting pool, cherry blossoms.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 143/172 | dc_s2.png | Washington: Kongressbygningen
+The US Capitol in Washington: a white neoclassical building with a tall cast-iron dome topped by a statue, wide steps, a central columned portico and symmetrical wings, green lawn.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 144/172 | la_s0.png | Los Angeles: Hollywood-skiltet
+The Hollywood Sign: giant white block letters spelling HOLLYWOOD on a dry brown hillside above Los Angeles, palm trees and blue sky (this is the only image where the letters are allowed).
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 145/172 | la_s1.png | Los Angeles: Walk of Fame
+Hollywood Walk of Fame: pink terrazzo sidewalk stars with brass rims and little film-camera and TV icons (no readable names), a red pagoda-style Chinese Theatre facade in the background.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 146/172 | la_s2.png | Los Angeles: Santa Monica
+Santa Monica Pier: a wooden pier with a Ferris wheel and a roller coaster, a beach with palm trees and umbrellas, the Pacific ocean with waves.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 147/172 | sf_s0.png | San Francisco: Golden Gate Bridge
+The Golden Gate Bridge in San Francisco: an orange-red Art Deco suspension bridge with two tall towers with horizontal braces, thick main cables, fog rolling in around the towers, green Marin hills.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 148/172 | sf_s1.png | San Francisco: Kabelbanene
+A San Francisco cable car: an open wooden trolley in red and cream with a bell, passengers hanging on the side, climbing a very steep street with the bay and Alcatraz island far below.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 149/172 | sf_s2.png | San Francisco: Alcatraz
+Alcatraz island in San Francisco Bay: a rocky island with a big gray prison building, a lighthouse and a water tower, a ferry boat approaching, the city skyline across the water.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 150/172 | tor_s0.png | Toronto: CN Tower
+The CN Tower in Toronto: a very tall slender concrete tower with a round pod near the top and a long antenna spire, the Toronto skyline and Lake Ontario, the white dome of a stadium beside it.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 151/172 | tor_s1.png | Toronto: Niagarafallene
+Niagara Falls: the curved Horseshoe Falls with huge white mist clouds, a small tour boat in red ponchos below, a rainbow and green trees.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 152/172 | tor_s2.png | Toronto: Ishockeymuseet
+Ice hockey: a big shiny silver trophy cup (the Stanley Cup) on a pedestal, crossed hockey sticks, a puck, a hockey helmet and skates on an ice rink.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 153/172 | hav_s0.png | Havana: Gamle biler
+Classic 1950s American cars in Havana: a pink convertible and a turquoise sedan with chrome bumpers and fins, parked on a street with pastel colonial buildings and palm trees.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 154/172 | hav_s1.png | Havana: Gamlebyen
+Old Havana: a plaza with a baroque cathedral with two uneven towers, cobblestones, pastel colonial buildings with arched arcades, palm trees and a street vendor.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 155/172 | hav_s2.png | Havana: Musikken
+Cuban street musicians: a band in bright shirts and hats playing a guitar, maracas, bongo drums and a trumpet, a couple dancing salsa, colorful colonial buildings behind.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 156/172 | mex_s0.png | Mexico by: Teotihuacan
+The Pyramid of the Sun at Teotihuacan in Mexico: a huge stepped stone pyramid with a broad staircase, the Avenue of the Dead stretching in front, cactus and dry grass, blue sky.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 157/172 | mex_s1.png | Mexico by: Zócalo
+The Zócalo in Mexico City: a huge square with a giant Mexican flag on a tall flagpole, the baroque Metropolitan Cathedral with two bell towers on one side, the long National Palace on the other.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 158/172 | mex_s2.png | Mexico by: De dødes dag
+Day of the Dead in Mexico: a friendly decorated sugar skull with colorful flower patterns, orange marigold flowers, paper-cut banners (papel picado) with no text, candles and an altar with bread.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 159/172 | quito_s0.png | Quito: Ekvator-monumentet
+The Mitad del Mundo monument near Quito: a tall trapezoid stone tower with a big globe on top, a yellow line on the ground marking the equator, green Andes mountains behind.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 160/172 | quito_s1.png | Quito: Vulkanene
+Cotopaxi volcano in Ecuador: a perfect cone-shaped snow-capped volcano above a green Andean plain with llamas and yellow grass.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 161/172 | quito_s2.png | Quito: Gamlebyen
+Old Town Quito: white colonial buildings with red tile roofs, a baroque church with twin towers, the hill El Panecillo with the winged Virgin statue on top.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 162/172 | manaus_s0.png | Manaus: Amazonas
+The Amazon rainforest: a dense green canopy of tall trees along a wide brown river, mist rising, a toucan on a branch and a small canoe.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 163/172 | manaus_s1.png | Manaus: Elvemøtet
+The Meeting of Waters near Manaus: two rivers side by side, the dark almost black Rio Negro and the light sandy-brown Solimões, forming two colors on the water, a riverboat and forest on the bank.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 164/172 | manaus_s2.png | Manaus: Papegøyene
+Scarlet macaws: two bright red, yellow and blue parrots with long tails sitting close together on a branch in the rainforest, big leaves.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 165/172 | rio_s1.png | Rio de Janeiro: Sukkertoppen
+Sugarloaf Mountain in Rio: a steep rounded granite peak rising from the sea, a red cable car on cables going up to it from the neighboring hill, Guanabara Bay.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 166/172 | rio_s2.png | Rio de Janeiro: Copacabana
+Copacabana beach in Rio: a long curved golden beach with the famous black-and-white wave-pattern pavement of the promenade, tall buildings, people playing beach volleyball, Sugarloaf at the end of the bay.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 167/172 | lima_s0.png | Lima: Machu Picchu
+Machu Picchu in Peru: an Inca stone citadel with green terraces and stone houses on a ridge, the steep Huayna Picchu peak rising behind, soft mist, a llama in the foreground.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 168/172 | lima_s1.png | Lima: Lamaene
+Llamas in the Andes: three fluffy llamas and an alpaca with colorful woven tassels in their ears, green mountains and a stone hut, blue sky.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 169/172 | lima_s2.png | Lima: Potetene
+Peruvian potatoes: a woven basket full of potatoes in many colors and shapes (purple, red, yellow, white), Andean mountains and terraces behind.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 170/172 | bsas_s0.png | Buenos Aires: Obelisken
+The Obelisco in Buenos Aires: a tall white stone obelisk with a pointed top in the middle of a very wide avenue with many lanes, city buildings and trees around it, blue sky.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 171/172 | bsas_s1.png | Buenos Aires: La Boca
+Caminito in La Boca, Buenos Aires: houses of corrugated metal painted in bright blue, yellow, red and green with colorful balconies, a small tango dancing statue, cobblestones.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 172/172 | bsas_s2.png | Buenos Aires: Tango
+Tango in Buenos Aires: a couple dancing on a cobblestone street, the man in a dark suit and hat, the woman in a red dress, a bandoneón player beside them, colorful houses behind.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.

@@ -1,0 +1,497 @@
+{
+ "oslo": {
+  "name": "Oslo",
+  "labels": [
+   "Operahuset",
+   "Slottet",
+   "Holmenkollen"
+  ],
+  "hero_same": "s0"
+ },
+ "bergen": {
+  "name": "Bergen",
+  "labels": [
+   "Bryggen",
+   "Fløibanen",
+   "Fisketorget"
+  ],
+  "hero_same": "s0"
+ },
+ "kbh": {
+  "name": "København",
+  "labels": [
+   "Den lille havfrue",
+   "Tivoli",
+   "Nyhavn"
+  ],
+  "hero_same": "s0"
+ },
+ "sto": {
+  "name": "Stockholm",
+  "labels": [
+   "Gamla stan",
+   "Vasamuseet",
+   "Kongeslottet"
+  ],
+  "hero_same": "s0"
+ },
+ "rov": {
+  "name": "Rovaniemi",
+  "labels": [
+   "Julenissens landsby",
+   "Nordlys",
+   "Reinsdyr"
+  ],
+  "hero_same": "s0"
+ },
+ "london": {
+  "name": "London",
+  "labels": [
+   "Big Ben",
+   "Tower Bridge",
+   "Buckingham Palace"
+  ],
+  "hero_same": "s0"
+ },
+ "dub": {
+  "name": "Dublin",
+  "labels": [
+   "Trinity College",
+   "Dublin Castle",
+   "Kløveren"
+  ],
+  "hero_same": null
+ },
+ "ams": {
+  "name": "Amsterdam",
+  "labels": [
+   "Vindmøller",
+   "Syklene",
+   "Rijksmuseum"
+  ],
+  "hero_same": null
+ },
+ "berlin": {
+  "name": "Berlin",
+  "labels": [
+   "Brandenburger Tor",
+   "Berlinmuren",
+   "Fjernsynstårnet"
+  ],
+  "hero_same": "s0"
+ },
+ "wien": {
+  "name": "Wien",
+  "labels": [
+   "Riesenrad",
+   "Schönbrunn",
+   "Statsoperaen"
+  ],
+  "hero_same": "s0"
+ },
+ "paris": {
+  "name": "Paris",
+  "labels": [
+   "Eiffeltårnet",
+   "Louvre",
+   "Notre-Dame"
+  ],
+  "hero_same": "s0"
+ },
+ "lis": {
+  "name": "Lisboa",
+  "labels": [
+   "Trikk 28",
+   "Belém-tårnet",
+   "Klippfisk"
+  ],
+  "hero_same": "s0"
+ },
+ "bcn": {
+  "name": "Barcelona",
+  "labels": [
+   "Sagrada Família",
+   "Park Güell",
+   "Camp Nou"
+  ],
+  "hero_same": "s0"
+ },
+ "roma": {
+  "name": "Roma",
+  "labels": [
+   "Colosseum",
+   "Trevifontenen",
+   "Pantheon"
+  ],
+  "hero_same": "s0"
+ },
+ "pisa": {
+  "name": "Pisa",
+  "labels": [
+   "Det skjeve tårn",
+   "Domkirken",
+   "Galileo"
+  ],
+  "hero_same": "s0"
+ },
+ "athen": {
+  "name": "Athen",
+  "labels": [
+   "Parthenon",
+   "Det gamle stadion",
+   "Akropolismuseet"
+  ],
+  "hero_same": "s0"
+ },
+ "ist": {
+  "name": "Istanbul",
+  "labels": [
+   "Hagia Sophia",
+   "Storbasaren",
+   "Bosporos"
+  ],
+  "hero_same": "s0"
+ },
+ "moskva": {
+  "name": "Moskva",
+  "labels": [
+   "Vasilijkatedralen",
+   "Kreml",
+   "Metroen"
+  ],
+  "hero_same": "s0"
+ },
+ "rey": {
+  "name": "Reykjavik",
+  "labels": [
+   "Hallgrímskirkja",
+   "Geysir",
+   "Nordlys"
+  ],
+  "hero_same": "s0"
+ },
+ "nuuk": {
+  "name": "Nuuk",
+  "labels": [
+   "Fargerike hus",
+   "Isfjell",
+   "Hvaler"
+  ],
+  "hero_same": null
+ },
+ "kairo": {
+  "name": "Kairo",
+  "labels": [
+   "Pyramidene i Giza",
+   "Sfinksen",
+   "Museet"
+  ],
+  "hero_same": "s0"
+ },
+ "marr": {
+  "name": "Marrakech",
+  "labels": [
+   "Koutoubia-moskeen",
+   "Jemaa el-Fnaa",
+   "Atlasfjellene"
+  ],
+  "hero_same": "s0"
+ },
+ "nai": {
+  "name": "Nairobi",
+  "labels": [
+   "Nairobi nasjonalpark",
+   "Sjiraffsenteret",
+   "Elefantbarnehjemmet"
+  ],
+  "hero_same": null
+ },
+ "zan": {
+  "name": "Zanzibar",
+  "labels": [
+   "Stone Town",
+   "Krydderfarmer",
+   "Strendene"
+  ],
+  "hero_same": null
+ },
+ "vic": {
+  "name": "Victoria Falls",
+  "labels": [
+   "Victoriafallene",
+   "Regnbuene",
+   "Elefantene"
+  ],
+  "hero_same": "s0"
+ },
+ "kapp": {
+  "name": "Kappstaden",
+  "labels": [
+   "Taffelfjellet",
+   "Pingvinene",
+   "Robben Island"
+  ],
+  "hero_same": "s0"
+ },
+ "mad": {
+  "name": "Antananarivo",
+  "labels": [
+   "Lemurene",
+   "Baobabtrærne",
+   "Rismarkene"
+  ],
+  "hero_same": null
+ },
+ "dubai": {
+  "name": "Dubai",
+  "labels": [
+   "Burj Khalifa",
+   "Ørkensafari",
+   "Palm Jumeirah"
+  ],
+  "hero_same": "s0"
+ },
+ "agra": {
+  "name": "Agra",
+  "labels": [
+   "Taj Mahal",
+   "Agra fort",
+   "Elefanter"
+  ],
+  "hero_same": "s0"
+ },
+ "mumbai": {
+  "name": "Mumbai",
+  "labels": [
+   "Gateway of India",
+   "Bollywood",
+   "Lokaltogene"
+  ],
+  "hero_same": "s0"
+ },
+ "kath": {
+  "name": "Kathmandu",
+  "labels": [
+   "Boudhanath",
+   "Himalaya",
+   "Bønneflagg"
+  ],
+  "hero_same": "s0"
+ },
+ "bkk": {
+  "name": "Bangkok",
+  "labels": [
+   "Wat Arun",
+   "Flytende marked",
+   "Tuk-tuk"
+  ],
+  "hero_same": "s0"
+ },
+ "sie": {
+  "name": "Siem Reap",
+  "labels": [
+   "Angkor Wat",
+   "Ta Prohm",
+   "Lotusblomster"
+  ],
+  "hero_same": "s0"
+ },
+ "sgp": {
+  "name": "Singapore",
+  "labels": [
+   "Marina Bay Sands",
+   "Supertrærne",
+   "Merlion"
+  ],
+  "hero_same": "s0"
+ },
+ "bali": {
+  "name": "Bali",
+  "labels": [
+   "Risterrasser",
+   "Templer",
+   "Vulkaner"
+  ],
+  "hero_same": null
+ },
+ "bj": {
+  "name": "Beijing",
+  "labels": [
+   "Den kinesiske mur",
+   "Den forbudte by",
+   "Pandaer"
+  ],
+  "hero_same": "s1"
+ },
+ "ulan": {
+  "name": "Ulaanbaatar",
+  "labels": [
+   "Ger-telt",
+   "Djengis Khan",
+   "Hestene"
+  ],
+  "hero_same": "s0"
+ },
+ "seoul": {
+  "name": "Seoul",
+  "labels": [
+   "N Seoul Tower",
+   "Gyeongbokgung",
+   "Kimchi"
+  ],
+  "hero_same": "s0"
+ },
+ "tokyo": {
+  "name": "Tokyo",
+  "labels": [
+   "Fuji",
+   "Shinkansen",
+   "Kirsebærblomster"
+  ],
+  "hero_same": "s0"
+ },
+ "syd": {
+  "name": "Sydney",
+  "labels": [
+   "Operahuset",
+   "Harbour Bridge",
+   "Kenguruer"
+  ],
+  "hero_same": "s0"
+ },
+ "alice": {
+  "name": "Alice Springs",
+  "labels": [
+   "Uluru",
+   "Outback",
+   "Kenguruer"
+  ],
+  "hero_same": "s0"
+ },
+ "akl": {
+  "name": "Auckland",
+  "labels": [
+   "Sky Tower",
+   "Seilbåtene",
+   "Vulkanene"
+  ],
+  "hero_same": "s0"
+ },
+ "hnl": {
+  "name": "Honolulu",
+  "labels": [
+   "Diamond Head",
+   "Waikiki",
+   "Blomsterkrans"
+  ],
+  "hero_same": "s0"
+ },
+ "ny": {
+  "name": "New York",
+  "labels": [
+   "Frihetsgudinnen",
+   "Central Park",
+   "Empire State Building"
+  ],
+  "hero_same": "s0"
+ },
+ "dc": {
+  "name": "Washington",
+  "labels": [
+   "Det hvite hus",
+   "Washington-monumentet",
+   "Kongressbygningen"
+  ],
+  "hero_same": "s1"
+ },
+ "la": {
+  "name": "Los Angeles",
+  "labels": [
+   "Hollywood-skiltet",
+   "Walk of Fame",
+   "Santa Monica"
+  ],
+  "hero_same": "s0"
+ },
+ "sf": {
+  "name": "San Francisco",
+  "labels": [
+   "Golden Gate Bridge",
+   "Kabelbanene",
+   "Alcatraz"
+  ],
+  "hero_same": "s0"
+ },
+ "tor": {
+  "name": "Toronto",
+  "labels": [
+   "CN Tower",
+   "Niagarafallene",
+   "Ishockeymuseet"
+  ],
+  "hero_same": "s0"
+ },
+ "hav": {
+  "name": "Havana",
+  "labels": [
+   "Gamle biler",
+   "Gamlebyen",
+   "Musikken"
+  ],
+  "hero_same": "s0"
+ },
+ "mex": {
+  "name": "Mexico by",
+  "labels": [
+   "Teotihuacan",
+   "Zócalo",
+   "De dødes dag"
+  ],
+  "hero_same": "s0"
+ },
+ "quito": {
+  "name": "Quito",
+  "labels": [
+   "Ekvator-monumentet",
+   "Vulkanene",
+   "Gamlebyen"
+  ],
+  "hero_same": "s0"
+ },
+ "manaus": {
+  "name": "Manaus",
+  "labels": [
+   "Amazonas",
+   "Elvemøtet",
+   "Papegøyene"
+  ],
+  "hero_same": "s0"
+ },
+ "rio": {
+  "name": "Rio de Janeiro",
+  "labels": [
+   "Kristusstatuen",
+   "Sukkertoppen",
+   "Copacabana"
+  ],
+  "hero_same": "s0"
+ },
+ "lima": {
+  "name": "Lima",
+  "labels": [
+   "Machu Picchu",
+   "Lamaene",
+   "Potetene"
+  ],
+  "hero_same": "s0"
+ },
+ "bsas": {
+  "name": "Buenos Aires",
+  "labels": [
+   "Obelisken",
+   "La Boca",
+   "Tango"
+  ],
+  "hero_same": "s1"
+ }
+}

@@ -1,0 +1,22 @@
+{
+  "oslo":   {"name": "Oslo",           "labels": ["Operahuset", "Slottet", "Holmenkollen"],
+             "hero": "Oslo skyline fjord",            "s": ["Oslo Opera House", "Royal Palace Oslo", "Holmenkollbakken ski jump"]},
+  "paris":  {"name": "Paris",          "labels": ["Eiffeltårnet", "Louvre", "Notre-Dame"],
+             "hero": "Paris skyline Seine",            "s": ["Eiffel Tower", "Louvre Palace", "Notre-Dame de Paris facade"]},
+  "london": {"name": "London",         "labels": ["Big Ben", "Tower Bridge", "Buckingham Palace"],
+             "hero": "London skyline Thames",          "s": ["Big Ben Elizabeth Tower", "Tower Bridge", "Buckingham Palace"]},
+  "roma":   {"name": "Roma",           "labels": ["Colosseum", "Trevifontenen", "Pantheon"],
+             "hero": "Rome skyline",                   "s": ["Colosseum Rome", "Trevi Fountain", "Pantheon Rome exterior"]},
+  "kairo":  {"name": "Kairo",          "labels": ["Pyramidene i Giza", "Sfinksen", "Museet"],
+             "hero": "Cairo skyline Nile",             "s": ["Giza pyramid complex", "Great Sphinx of Giza", "Egyptian Museum Cairo"]},
+  "tokyo":  {"name": "Tokyo",          "labels": ["Fuji", "Shinkansen", "Kirsebærblomster"],
+             "hero": "Tokyo skyline",                  "s": ["Mount Fuji", "Shinkansen train", "Cherry blossoms Tokyo park"]},
+  "ny":     {"name": "New York",       "labels": ["Frihetsgudinnen", "Central Park", "Empire State Building"],
+             "hero": "Manhattan skyline",              "s": ["Statue of Liberty", "Central Park New York", "Empire State Building"]},
+  "rio":    {"name": "Rio de Janeiro", "labels": ["Kristusstatuen", "Sukkertoppen", "Copacabana"],
+             "hero": "Rio de Janeiro Sugarloaf aerial","s": ["Christ the Redeemer statue", "Sugarloaf Mountain", "Copacabana beach"]},
+  "syd":    {"name": "Sydney",         "labels": ["Operahuset", "Harbour Bridge", "Kenguruer"],
+             "hero": "Sydney Harbour skyline",         "s": ["Sydney Opera House", "Sydney Harbour Bridge", "Kangaroo Australia"]},
+  "kapp":   {"name": "Kappstaden",     "labels": ["Taffelfjellet", "Pingvinene", "Robben Island"],
+             "hero": "Cape Town skyline Table Mountain","s": ["Table Mountain Cape Town", "African penguins Boulders Beach", "Robben Island"]}
+}

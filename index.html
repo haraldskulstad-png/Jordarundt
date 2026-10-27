@@ -450,6 +450,35 @@ svg.wm path.hc{stroke:var(--ol);stroke-width:3.4px}
 .guest .gf{font-size:46px;line-height:1.1}
 .guest b{font-family:var(--f-display);font-weight:400;font-size:20px;display:block}
 .tramsvg{display:block;width:100%;height:auto;background:var(--soft);border:3px solid var(--ol);border-radius:18px;box-shadow:0 4px 0 var(--ol);touch-action:manipulation}
+
+.hofinput{display:block;width:100%;font:inherit;font-size:20px;font-weight:800;text-align:center;padding:12px;margin:12px 0;border:3px solid var(--ol);border-radius:16px;background:#fff;color:#2A1B3D;box-shadow:0 4px 0 var(--ol)}
+.hofranks{display:grid;gap:6px;margin:12px 0;text-align:left}
+.hrk{display:flex;justify-content:space-between;gap:10px;background:#fff;color:#2A1B3D;border:2.5px solid var(--ol);border-radius:12px;padding:6px 12px;font-weight:800}
+.hoftabs{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:8px 0 12px}
+.hoftab{font:inherit;font-weight:800;font-size:14px;border:3px solid var(--ol);border-radius:14px;background:#fff;color:#2A1B3D;padding:8px 6px;box-shadow:0 3px 0 var(--ol)}
+.hoftab.on{background:var(--ol);color:#fff}
+.hoflist{list-style:none;margin:0 0 12px;padding:0;display:grid;gap:8px}
+.hofrow{display:grid;grid-template-columns:38px 1fr;gap:4px 8px;align-items:center;background:#fff;color:#2A1B3D;border:3px solid var(--ol);border-radius:16px;padding:8px 10px;box-shadow:0 3px 0 var(--ol)}
+.hofrow.me{background:var(--note);outline:4px solid var(--coral)}
+.hofrow .hr{font-family:var(--f-display);font-size:22px;text-align:center}
+.hofrow .hn b{font-family:var(--f-display);font-weight:400;font-size:19px;display:block;overflow:hidden;text-overflow:ellipsis}
+.hofrow .hn small{color:#6b5a85;font-weight:700}
+.hofrow .hs{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:6px}
+.hofrow .m{font-size:13px;font-weight:700;background:#F4EBD3;border-radius:10px;padding:2px 8px}
+.hofrow .m.act{background:var(--accent);font-weight:800;outline:2px solid var(--ol)}
+
+.routesvg{display:block;width:100%;height:auto;border:3px solid var(--ol);border-radius:18px;box-shadow:0 4px 0 var(--ol);touch-action:manipulation}
+.pgrid{display:grid;grid-template-columns:repeat(var(--w),1fr);gap:5px;margin:10px 0}
+.pc{aspect-ratio:1;position:relative;font-size:22px;border:2.5px solid var(--ol);border-radius:12px;background:#DDF0C8;box-shadow:0 3px 0 var(--ol);padding:0;touch-action:manipulation;color:#2A1B3D}
+.pc.s{background:#EAF4FF}.pc.x{background:#8E7FA3}.pc.on{background:var(--accent)}.pc.cur{outline:4px solid var(--coral)}
+.pc i{position:absolute;right:4px;bottom:1px;font-size:11px;font-style:normal;font-weight:800}
+.rline{font-family:var(--f-display);font-size:26px;text-align:center;margin:6px 0 12px}
+.rline small{font:700 13px var(--f-body);color:#6b5a85}
+.offers{display:grid;gap:10px;margin:8px 0}
+.offer{text-align:left;background:#fff;color:#2A1B3D;border:3px solid var(--ol);border-radius:16px;box-shadow:0 4px 0 var(--ol);padding:10px 12px;display:grid;gap:4px;font:inherit}
+.offer .oe{font-size:24px;line-height:1.15;word-break:break-all}
+.offer b{font-family:var(--f-display);font-weight:400;font-size:20px}
+.offer.right{background:#BFF0CF}.offer.wrong{background:#FFC7D2}
 </style>
 </head>
 <body>
@@ -635,7 +664,7 @@ const CITIES=[
      ['☔','Hva har du ofte med deg i Bergen fordi det regner mye?','☔ Paraply','🕶️ Solbriller','🛷 Slede']]},
  {id:'kbh',n:'København',c:'Danmark',iso:'DNK',rg:'europe',reg:'EA',port:1,lon:12.57,lat:55.68,lp:'r',lm:'Den lille havfrue',
   fa:'Statuen av Den lille havfrue ble laget i 1913 etter eventyret av H.C. Andersen.',
-  job:{t:'Bakerlærling',type:'math',pay:310,items:['wienerbrød','rundstykker']},
+  job:{t:'Bakerlærling',type:'halve',pay:310},
   q:[['🧜‍♀️','Hvilken figur sitter på en stein ved havna?','🧜‍♀️ Den lille havfrue','👸 Askepott','🧒 Pippi Langstrømpe'],
      ['🎢','Hva heter fornøyelsesparken midt i byen?','🎢 Tivoli','🧱 Legoland','🦁 Dyreparken'],
      ['🧱','Hvilket land kommer Lego fra?','🇩🇰 Danmark','🇺🇸 USA','🇯🇵 Japan']]},
@@ -719,7 +748,7 @@ const CITIES=[
      ['🫒','Hva lages olivenolje av?','🫒 Oliven','🍇 Druer','🍊 Appelsiner']]},
  {id:'ist',n:'Istanbul',c:'Tyrkia',iso:'TUR',rg:'europe',reg:'EA',port:1,lon:28.98,lat:41.01,lp:'r',lm:'Hagia Sophia',
   fa:'Istanbul ligger på to kontinenter, Europa og Asia.',
-  job:{t:'Basarselger',type:'math',pay:360,items:['krydderposer','tekanner']},
+  job:{t:'Basarselger',type:'deal',pay:360,items:['krydderposer','tekanner']},
   q:[['🌉','Hva er spesielt med Istanbul?','🌍 Den ligger i både Europa og Asia','🌙 Den ligger på månen','🐘 Den ligger i Afrika'],
      ['🕌','Hva heter den store gamle kuppelbygningen?','🕌 Hagia Sophia','⛪ Notre-Dame','⛪ Peterskirken'],
      ['🛍️','Hva kalles det store overdekte markedet?','🛍️ Storbasaren','🏬 Kjøpesenteret','🏞️ Torget']]},
@@ -785,7 +814,7 @@ const CITIES=[
      ['🏝️','Madagaskar er en veldig stor …','🏝️ Øy','🏙️ By','🏞️ Innsjø']]},
  {id:'dubai',n:'Dubai',c:'De forente arabiske emirater',iso:'ARE',rg:'asia',reg:'EA',port:1,lon:55.3,lat:25.2,lp:'u',lm:'Burj Khalifa',
   fa:'Burj Khalifa er over 800 meter høy.',
-  job:{t:'Tepphandler',type:'math',pay:440,items:['små tepper','store tepper']},
+  job:{t:'Tepphandler',type:'deal',pay:440,items:['små tepper','store tepper']},
   q:[['🏙️','Hva heter verdens høyeste bygning?','🏙️ Burj Khalifa','🗼 Eiffeltårnet','🗼 CN Tower'],
      ['🐪','Hvilket dyr er vanlig i ørkenen rundt Dubai?','🐪 Kamel','🐻‍❄️ Isbjørn','🐧 Pingvin'],
      ['🏖️','Hva er det mye av rundt Dubai?','🏜️ Ørken og sand','🌲 Skog','🧊 Is']]},
@@ -803,13 +832,13 @@ const CITIES=[
      ['🏏','Hvilken ballsport spiller veldig mange i India?','🏏 Cricket','🎿 Skihopp','🏒 Ishockey']]},
  {id:'kath',n:'Kathmandu',c:'Nepal',iso:'NPL',rg:'asia',reg:'EA',port:0,lon:85.32,lat:27.72,lp:'u',lm:'Boudhanath-stupaen',
   fa:'Nepal har flere av verdens aller høyeste fjell.',
-  job:{t:'Fjellguide',type:'memory',pay:440,th:'fjell'},
+  job:{t:'Fjellguide',type:'path',pay:440},
   q:[['🏔️','Hva heter verdens høyeste fjell?','🏔️ Mount Everest','🌋 Kilimanjaro','⛰️ Galdhøpiggen'],
      ['🙏','Hva henger folk opp som blafrer i vinden?','🚩 Bønneflagg','🎄 Julekuler','🎣 Fiskegarn'],
      ['🧗','Hva kalles guidene som hjelper turister opp på fjellene?','🧗 Sherpaer','🏴‍☠️ Pirater','🛡️ Riddere']]},
  {id:'bkk',n:'Bangkok',c:'Thailand',iso:'THA',rg:'asia',reg:'EA',port:1,lon:100.5,lat:13.75,lp:'u',lm:'Wat Arun',
   fa:'Det fulle stedsnavnet til Bangkok er et av verdens lengste.',
-  job:{t:'Kokk',type:'simon',pay:440,th:'mat'},
+  job:{t:'Kokk',type:'halve',pay:440},
   q:[['🛺','Hva kalles de små trehjulte drosjene?','🛺 Tuk-tuk','🛶 Gondol','🚋 Trikk'],
      ['🐘','Hvilket dyr er Thailands nasjonaldyr?','🐘 Elefant','🐼 Panda','🐻‍❄️ Isbjørn'],
      ['🛶','Hva selges fra båter på de flytende markedene?','🥭 Frukt og mat','🚗 Biler','👟 Sko']]},
@@ -981,6 +1010,7 @@ const goalDone=()=>S.goal==='v'?(nCont()>=6&&S.cur==='oslo'):progress()>=target(
 function addLog(m){S.log.unshift(m);S.log=S.log.slice(0,5);}
 function advance(days,travel){S.day+=days;const rate=LIV[S.diff]*((!travel&&S.hotel==='dyrt')?2.5:1);const c=Math.min(S.money,Math.round(days*rate));S.money-=c;return c;}
 const payFor=c=>Math.round(c.job.pay*RF[Math.min(S.jobCount[c.id]||0,RF.length-1)]);
+const earn=n=>{S.money+=n;S.earned=(S.earned||0)+n;};
 function getBest(d){try{const v=localStorage.getItem('jr-best-'+d);return v?parseInt(v,10):null;}catch(e){return null;}}
 function setBest(d,v){try{localStorage.setItem('jr-best-'+d,String(v));}catch(e){}}
 
@@ -988,7 +1018,7 @@ function newGame(){
   S={diff:setup.diff,goal:setup.goal,cur:'oslo',day:1,money:setup.diff==='g'?800:1200,
      stamps:{},certs:{},conts:{europe:true},countries:{NOR:true},jobCount:{},quizTries:{},path:[],
      log:['Reisen begynner i Oslo. Du har ikke så mye penger, så ta jobber og svar på spørsmål underveis.'],
-     sel:null,region:'europe',names:true,busy:false,won:false,hotel:'billig',calls:0,inv:[],seen:{},qSeen:{},ci:null};
+     sel:null,region:'europe',names:true,busy:false,won:false,earned:0,hotel:'billig',calls:0,inv:[],seen:{},qSeen:{},ci:null};
   buildShell();render();
 }
 function options(a,b){
@@ -1009,7 +1039,7 @@ const EVENTS=[
 function randomEvent(){
   if(Math.random()>0.28)return;
   const e=EVENTS[rnd(0,EVENTS.length-1)];
-  if(e[1]>0)S.money+=e[1];else if(e[1]<0)S.money=Math.max(0,S.money+e[1]);
+  if(e[1]>0)earn(e[1]);else if(e[1]<0)S.money=Math.max(0,S.money+e[1]);
   if(e[2])advance(e[2]);
   addLog(e[0]);
 }
@@ -1085,6 +1115,7 @@ function renderStart(){
       ${ch('goal','s','Sertifikatjakt','Bestå jobber og samle yrkessertifikater')}
     </div></div>
     <button class="btn block" data-act="begin">Start reisen</button>
+    <button class="btn block ghost" data-act="hof" data-s="time">🏆 Hall of Fame</button>
     <p class="fine">Kartet bruker landegrenser fra Natural Earth (offentlig eiendom). Alle illustrasjoner, spørsmål og figurer er laget for dette spillet. Flagg vises som emoji, så de ser best ut på mobil. Enspiller, ingen nettspill.</p>
   </div>`;
 }
@@ -1458,9 +1489,9 @@ function startQuiz(){
   }
   function end(){
     const pass=right>=need;
-    S.money+=right*50;
+    earn(right*50);
     let msg=`Du fikk ${right} av ${qs.length} riktige og tjente ${right*50} kr.`;
-    if(pass){S.stamps[c.id]=true;S.money+=100;msg+=' Stempelet gir deg 100 kr i bonus.';addLog(`Stempel i passet fra ${c.n}!`);}
+    if(pass){S.stamps[c.id]=true;earn(100);msg+=' Stempelet gir deg 100 kr i bonus.';addLog(`Stempel i passet fra ${c.n}!`);}
     else{msg+=` Du trenger ${need} riktige for stempel.`;addLog(`Ingen stempel i ${c.n} denne gangen.`);}
     openModal(`<div class="result"><div class="mascot big">${mascot(pass?'win':'hmm')}</div>${pass?'<div class="stamp">STEMPLET</div>':''}<h3>${pass?'Flott jobba!':'Ikke helt denne gangen'}</h3><p>${msg}</p><div class="fact" style="text-align:left">💡 ${c.fa}</div>${pass?'':'<p>Du kan prøve igjen, men det koster en dag.</p>'}<button class="btn block" data-act="cont">Fortsett</button></div>`);
   }
@@ -1480,6 +1511,10 @@ const JOBINFO={
   flag:()=>({d:'Match flagg og land.',need:GH()?'5 av 6 riktige':'4 av 6 riktige'}),
   pack:()=>({d:'Velg de fire tingene som passer til været, og pakk kofferten.',need:GH()?'3 av 3 koffertpakkinger helt riktige':'2 av 3 koffertpakkinger med minst 3 riktige'}),
   postcard:()=>({d:'Se på postkortet og velg hvilken by det er fra. Bruk det du har lært!',need:GH()?'4 av 5 riktige':'3 av 5 riktige'})
+  ,route:()=>({d:'Pizzaene skal leveres! Trykk på husene i den rekkefølgen som gir kortest kjøretur fra pizzeriaet.',need:GH()?'2 av 3 kart, nesten kortest mulig (5 hus)':'2 av 3 kart, ganske kort rute (4 hus)'}),
+  path:()=>({d:'Finn stien opp til toppen. Hvert steg koster energi, dyp snø koster dobbelt, og sprekker kan du ikke gå over.',need:'2 av 3 fjell på tid, uten å gå tom for energi'}),
+  halve:()=>({d:'Oppskriften er laget til flere personer. Regn ut hvor mye du trenger når du skal lage mindre eller mer.',need:`${Math.max(2,(GH()?4:3)-(EZ()?1:0))} av ${GH()?5:4} riktige`}),
+  deal:()=>({d:'Velg tilbudet som gir best kjøp, altså lavest pris for hvert stykk.',need:`${Math.max(3,4-(EZ()?1:0))} av 5 riktige${GH()?' (tre tilbud å velge mellom)':''}`})
   ,tram:()=>({d:'Du er trikkefører. Trykk på de gule sporvekslerne og send hver trikk til stasjonen med samme farge. To trikker som møtes, kolliderer!',need:GH()?'12 trikker levert, to ulykker tillatt':'7 trikker levert, tre ulykker tillatt'}),
   bellhop:()=>({d:'Du er hotellportier. Du tar med og leverer kofferter, og vogna vises ikke. Husk hvor mange du har av hver farge!',need:GH()?'3 av 4 riktige svar':'2 av 3 riktige svar'}),
   orders:()=>({d:'Flere kaffemaskiner fylles samtidig. Trykk på koppen når kaffen står i den grønne sonen.',need:GH()?'12 kopper på 25 sekunder (4 maskiner)':'8 kopper på 25 sekunder (3 maskiner)'}),
@@ -1491,13 +1526,13 @@ const JOBINFO={
 function startJob(i){
   const c=city(S.cur),ad=adsFor(c)[i];if(!ad)return;
   const rq=reqFor(ad,c);if(!rq.ok)return openAds();
-  S.cls=ad.cls;const info=JOBINFO[ad.p.type](ad.p);
+  S.cls=ad.cls;S.like=likeCert(ad);const info=JOBINFO[ad.p.type](ad.p);const qn=quizNeed();S.like=false;
   const notes=[];
   if(S.hotel==='dyrt')notes.push('🏨 dyrt hotell');
   if(ad.cls===1)notes.push('⭐ enkel jobb');
   if(likeCert(ad))notes.push('🎓 sertifikat i en lignende jobb');
   S.cls=0;
-  openModal(head(ad.p.t)+hero(c.id,c.lm)+`<p>${info.d}</p><p><b>Lønnsklasse:</b> ${'⭐'.repeat(ad.cls)} ${CLSNAME[ad.cls]}<br><b>Krav:</b> ${info.need}.<br><b>Lønn:</b> ${fmt(payFor2(ad))} kr${S.jobCount[ad.id]?' (lavere fordi du har gjort jobben før)':''}.<br><b>Tid:</b> jobben tar én dag, og mat og overnatting koster ${hotelRate()} kr.${notes.length?'<br>Litt lettere i dag: '+notes.join(', ')+'.':''}</p><button class="btn block" data-act="jobgo" data-i="${i}">Start jobben</button><p></p><button class="btn block ghost" data-act="job">Tilbake til avisen</button>`);
+  openModal(head(ad.p.t)+hero(c.id,c.lm)+`<p>${info.d}</p><p class="prog">🎲 Det trekkes tilfeldig når du starter: du får enten dette minispillet eller en kort quiz om yrket.</p><p><b>Lønnsklasse:</b> ${'⭐'.repeat(ad.cls)} ${CLSNAME[ad.cls]}<br><b>Krav:</b> ${info.need}, eller ${qn} av 3 riktige hvis du får quiz.<br><b>Lønn:</b> ${fmt(payFor2(ad))} kr${S.jobCount[ad.id]?' (lavere fordi du har gjort jobben før)':''}.<br><b>Tid:</b> jobben tar én dag, og mat og overnatting koster ${hotelRate()} kr.${notes.length?'<br>Litt lettere i dag: '+notes.join(', ')+'.':''}</p><button class="btn block" data-act="jobgo" data-i="${i}">Start jobben</button><p></p><button class="btn block ghost" data-act="job">Tilbake til avisen</button>`);
 }
 function runJob(i){
   const c=city(S.cur),ad=adsFor(c)[i];if(!ad)return;
@@ -1511,14 +1546,15 @@ function runJob(i){
     let pay=0,newCert=false;
     if(ok){
       pay=payFor2(ad);
-      S.money+=pay;S.jobCount[ad.id]=(S.jobCount[ad.id]||0)+1;
+      earn(pay);S.jobCount[ad.id]=(S.jobCount[ad.id]||0)+1;
       if(!S.certs[ad.id]){S.certs[ad.id]=true;newCert=true;}
       addLog(`Du jobbet som ${j.t.toLowerCase()} i ${c.n}: +${fmt(pay)} kr, mat/overnatting -${fmt(liv)} kr.`);
     }else addLog(`Jobben som ${j.t.toLowerCase()} gikk ikke bra. Ingen lønn, men mat/overnatting kostet ${fmt(liv)} kr.`);
     openModal(`<div class="result"><div class="big">${ok?'💼':'😓'}</div><h3>${ok?'Bestått!':'Ikke bestått'}</h3><p>${txt}.${ok?` Du tjente ${fmt(pay)} kr.`:' Ingen lønn i dag.'}</p>${newCert?`<div class="stamp">SERTIFIKAT: ${j.t.toUpperCase()}</div><p>Sertifikatet gjelder i alle byer og gjør lignende jobber lettere.</p>`:''}<button class="btn block" data-act="cont">Fortsett</button></div>`);
   };
-  const g={math:gameMath,click:gameClick,memory:gameMemory,simon:gameSimon,timing:gameTiming,sort:gameSort,catch:gameCatch,mapfind:gameMapFind,flag:gameFlag,pack:gamePack,postcard:gamePostcard,bellhop:gameBellhop,tram:gameTram,orders:gameOrders,birds:gameBirds,plant:gamePlant,rhythm:gameRhythm,faces:gameFaces}[j.type];
-  cleanup=g(el,j,fin);
+  const g={math:gameMath,click:gameClick,memory:gameMemory,simon:gameSimon,timing:gameTiming,sort:gameSort,catch:gameCatch,mapfind:gameMapFind,flag:gameFlag,pack:gamePack,postcard:gamePostcard,bellhop:gameBellhop,tram:gameTram,route:gameRoute,path:gamePath,halve:gameHalve,deal:gameDeal,orders:gameOrders,birds:gameBirds,plant:gamePlant,rhythm:gameRhythm,faces:gameFaces}[j.type];
+  const useQuiz=!!PQ[ad.id]&&(window.__forceQuiz!==undefined?!!window.__forceQuiz:Math.random()<QUIZ_P);
+  cleanup=useQuiz?gameJobQuiz(el,j,fin,ad.id):g(el,j,fin);
 }
 
 /* ----- Nye yrkesspill: koffertminne, kaffebestillinger, lederfugl, plantelogikk, rytme, ansikter ----- */
@@ -1847,6 +1883,270 @@ function gameTram(el,job,fin){
   if(window.__test)el.__tram={trams:()=>trams,sw,OUTS,EDGE,STN,delivered:()=>delivered,lives:()=>lives};
   refresh();raf=requestAnimationFrame(loop);
   return ()=>{dead=true;cancelAnimationFrame(raf);};
+}
+
+/* ----- Yrkesquiz: tre spørsmål om yrket, trekkes tilfeldig i stedet for minispillet ----- */
+const QUIZ_P=0.5;
+const PQ={"oslo":[["Hva gjør en kasserer?","💳 Tar imot betaling i butikken","🧹 Vasker gulvet","🚌 Kjører buss","Kassereren skanner varene og tar imot betalingen."],["Hva bruker en kasserer?","🧾 Kassaapparat","🔨 Hammer og spiker","🎣 Fiskestang","Kassaapparatet regner ut hva du skal betale."],["Hva får du etter at du har betalt?","🧾 En kvittering","🎟️ En flybillett","🎈 En ballong","Kvitteringen viser hva du har kjøpt og betalt."]],"bergen":[["Hva selger en fiskeselger?","🐟 Fersk fisk og skalldyr","🥖 Brød","👟 Sko","Fiskeselgeren selger fisk, reker og krabber."],["Hvorfor ligger fisken på is?","❄️ Så den holder seg fersk og kald","🎨 For at den skal bli fin","😴 For at den skal sove","Is holder fisken kald, slik at den ikke blir dårlig."],["Hvor jobber en fiskeselger ofte?","🏪 På et fisketorg ved havna","🏔️ På en fjelltopp","🚀 I en rakett","Mange fiskeselgere står på fisketorget nær havna."]],"kbh":[["Hva lager en baker?","🥐 Brød og boller","👕 Klær","🧸 Leker","Bakeren baker brød, boller og kaker."],["Hva bør du gjøre før du baker?","🧼 Vaske hendene","🎵 Synge høyt","🛌 Legge seg","Rene hender holder maten ren."],["Hvor blir brødet bakt?","🔥 I en varm ovn","🧊 I fryseren","🚿 I dusjen","Deigen blir til brød når den bakes i varm ovn."]],"sto":[["Hva viser et kart?","🗺️ Hvor steder ligger og veien dit","🎶 Hvilken sang som spilles","🍰 Hva som er til dessert","Et kart hjelper oss å finne veien."],["Hva gjør en ferje?","⛴️ Frakter folk og biler over vann","✈️ Flyr over fjell","🚂 Kjører på skinner","Ferjer går mellom steder som ligger på hver sin side av vannet."],["Hva hjelper kartleseren til med?","🧭 Å finne riktig kurs","🍦 Å lage is","🎈 Å blåse opp ballonger","Kartleseren sørger for at ferja holder riktig kurs."]],"rov":[["Hva gjør en reiseleder?","🧳 Hjelper turister og viser vei","🍕 Baker pizza","🚒 Slukker branner","Reiselederen passer på at turistene har det bra."],["Hva er lurt å ha på i kaldt vær?","🧤 Votter og lue","🩴 Flip-flops","🏊 Badetøy","Når det er kaldt, må du holde deg varm."],["Hva skal reiselederen passe på?","✅ At gruppen er samlet og trygg","🎮 At alle spiller på mobilen","😴 At alle sover hele turen","En god reiseleder teller at alle er med."]],"london":[["Hva gjør en postfunksjonær?","📮 Sender og sorterer brev og pakker","🚑 Kjører ambulanse","🍞 Baker brød","Posten sørger for at brev og pakker kommer fram."],["Hva må stå på et brev?","🏠 Adresse til mottakeren","🐶 Et bilde av en hund","🎂 En kake","Adressen viser hvor brevet skal."],["Hva er et frimerke?","🏷️ Et merke som viser at portoen er betalt","🍬 En sukkerbit","🔑 En nøkkel","Med frimerke betaler du for å sende brevet."]],"dub":[["Hva tror mange at et firkløver gir?","🍀 Hell","💤 Søvn","🌧️ Regn","Firkløver er sjeldne, så folk tror de gir hell."],["Hvor vokser kløver?","🌱 I gress og på enger","🌊 På havbunnen","🏜️ Bare i ørken","Kløver trives i gress og på enger."],["Hvor mange blader har vanlig kløver?","🍀 Tre","🔟 Ti","1️⃣ Ett","Vanlig kløver har tre blader. Firkløver har fire."]],"ams":[["Hva selger en blomsterselger?","🌷 Blomster og planter","🔧 Verktøy","🥩 Kjøtt","Blomsterselgeren lager også pene buketter."],["Hva trenger blomster for å holde seg friske?","💧 Vann","🍬 Godteri","🎸 Musikk","Blomster må ha vann for å leve."],["Hvilken blomst er typisk for Nederland?","🌷 Tulipan","🌵 Kaktus","🌴 Palme","Nederland er kjent for tulipaner."]],"berlin":[["Hva selger en pølseselger?","🌭 Pølser i brød","👟 Sko","📚 Bøker","Pølseselgeren steker og selger pølser."],["Hva kan du ha på pølsa?","🟡 Sennep eller ketchup","🧼 Såpe","🪨 Sand","Sennep og ketchup er vanlig på pølse."],["Hva må en pølseselger gjøre ofte?","🧼 Vaske hendene","🏃 Løpe maraton","🎤 Synge opera","Rene hender er viktig når du selger mat."]],"wien":[["Hva gjør en diplomat?","🤝 Snakker for landet sitt med andre land","🚒 Slukker branner","🥕 Dyrker grønnsaker","Diplomater hjelper land å samarbeide."],["Hvor jobber diplomater ofte?","🏛️ På en ambassade i et annet land","🏊 I et svømmebasseng","🌾 På en gård","Ambassaden er landets kontor i utlandet."],["Hva er lurt for en diplomat å kunne?","🌍 Mye om andre land og språk","🧁 Mange kakeoppskrifter","🪁 Å lage drager","Diplomater må forstå andre land og kulturer."]],"paris":[["Hva lager en barista?","☕ Kaffe","🍝 Spaghetti","🧊 Isbiter","Baristaen lager kaffe og andre varme drikker."],["Hva bruker baristaen for å lage kaffe?","⚙️ En kaffemaskin","🧲 En magnet","🔭 En kikkert","Kaffemaskinen presser vann gjennom kaffen."],["Hva er en latte laget av?","☕ Kaffe og melk","🥤 Brus","🍎 Eplejuice","Latte betyr melk på italiensk."]],"lis":[["Hva kjører en trikkefører?","🚋 Trikk","🚀 Rakett","🚜 Traktor","Trikken kjører i byen med passasjerer."],["Hva kjører trikken på?","🛤️ Skinner i gata","💧 Vann","☁️ Skyer","Trikken følger skinner i veibanen."],["Hvilken farge betyr stopp i lyset?","🔴 Rødt","🟢 Grønt","🔵 Blått","Rødt lys betyr at du skal stoppe."]],"bcn":[["Hva selger en iskremselger?","🍦 Is","🧣 Skjerf","🔥 Grytelapper","Iskremselgeren selger kald, god is."],["Hva skjer med isen i sola?","💧 Den smelter","❄️ Den blir hardere","🎈 Den flyr bort","Varme får is til å smelte."],["Hvor holder man is kald?","🧊 I en fryser","🔥 Ved bålet","☀️ I solsteika","Frysere holder isen hard og kald."]],"roma":[["Hva gjør en gatemusikant?","🎻 Spiller musikk ute på gata","🧹 Feier gata","🚌 Kjører buss","Gatemusikanter gleder folk som går forbi."],["Hva legger folk ofte i hatten eller kofferten?","🪙 Penger","🍓 Jordbær","🪨 Steiner","Folk gir penger for å takke for musikken."],["Hvilket instrument kan en gatemusikant spille?","🎸 Gitar","🔨 Hammer","🧯 Brannslokker","Gitar, fiolin og trekkspill er vanlig."]],"pisa":[["Hva lager en pizzabaker?","🍕 Pizza","🍦 Is","🥗 Salat","Pizzabakeren lager deig og legger på topping."],["Hvilken ovn brukes ofte til pizza?","🔥 En veldig varm steinovn","🧊 En fryser","🛁 Et badekar","En varm ovn gir sprø og god bunn."],["Hva er på en pizza margherita?","🍅 Tomat og ost","🍫 Sjokolade","🐟 Sild","Margherita har tomatsaus, ost og basilikum."]],"athen":[["Hva er en suvenir?","🎁 Noe du kjøper for å huske en tur","🥣 En type suppe","🚲 En sykkeldel","En suvenir minner deg om stedet du besøkte."],["Hva er en vanlig suvenir?","🧲 En kjøleskapsmagnet","🚗 En bil","🏠 Et hus","Magneter, postkort og små figurer er vanlig."],["Hvem kjøper oftest suvenirer?","🧳 Turister","🦁 Løver","🤖 Roboter","Turister vil ta med seg et minne hjem."]],"ist":[["Hva er en basar?","🛍️ Et stort marked med mange små butikker","🏊 Et svømmebasseng","✈️ En flyplass","På basaren selges det alt fra krydder til tepper."],["Hva gjør man ofte på en basar?","🤝 Prutter om prisen","🛌 Sover","⚽ Spiller fotball","Å prute betyr å forhandle om prisen."],["Hva kan du se på en basar?","🧿 Tepper, lamper og krydder","🚀 Raketter","🐋 Hvaler","Basarer har mange fargerike varer."]],"moskva":[["Hva passer en museumsvakt på?","🖼️ Kunst og gamle ting","🥕 Gulrøtter","🏊 Svømmere","Museumsvakta passer på at tingene er trygge."],["Hva er lurt å la være på et museum?","🚫 Å ta på kunsten","👀 Å se på bildene","🤫 Å snakke lavt","Kunst kan gå i stykker hvis vi tar på den."],["Hvorfor har museer vakter?","🛡️ For at ting ikke blir ødelagt eller stjålet","😴 For å få sove","🎮 For å spille","Vaktene tar vare på verdifulle ting."]],"rey":[["Hva gjør en fisker?","🎣 Fanger fisk i havet","🍰 Baker kaker","🧵 Syr klær","Fiskeren tar med fisk til folk som vil spise den."],["Hva kjører fiskeren ofte?","🚤 En fiskebåt","🚜 En traktor","🛴 En sparkesykkel","Fiskebåten tar fiskeren ut på havet."],["Hva må du ha på i en båt?","🦺 Redningsvest","🩴 Flip-flops","👑 Krone","Redningsvest holder deg flytende hvis du faller i vannet."]],"nuuk":[["Hva bør du ha på i Grønland?","🧥 Tykk jakke og lue","🩳 Shorts","👙 Badedrakt","Det er kaldt på Grønland."],["Hva er et isfjell?","🧊 En stor isklump som flyter i havet","🏔️ Et fjell av sand","🍨 En iskrem","Isfjell brekker av fra store isbreer."],["Hva gjør en reiseleder i kulda?","🧭 Passer på at gruppen er trygg og varm","🏖️ Selger solkrem","🎤 Synger opera","Kulde krever at man passer ekstra på hverandre."]],"kairo":[["Hva gjør en arkeolog?","🏺 Graver fram gamle ting og lærer om fortiden","🥦 Dyrker mat","🚑 Kjører ambulanse","Arkeologer finner spor etter folk som levde for lenge siden."],["Hvilket verktøy bruker en arkeolog?","🖌️ En liten pensel","🔊 En høyttaler","🪓 En stor øks","Med pensel og liten spade er man forsiktig."],["Hva er en pyramide i Egypt?","⚱️ En gammel grav for en farao","🛒 En butikk","🏫 En skole","Faraoene ble gravlagt i pyramidene."]],"marr":[["Hva selger en krydderselger?","🌶️ Krydder som kanel og pepper","🧸 Bamser","🧴 Såpe","Krydder gjør maten god."],["Hva gjør krydder med maten?","😋 Gir smak","🧼 Vasker den","🧊 Fryser den","Krydder gir mat både smak og lukt."],["Hvilket krydder er sterkt?","🌶️ Chili","🍯 Honning","🍬 Sukker","Chili er sterkt og kan svi i munnen."]],"nai":[["Hva tar en safarifotograf bilder av?","🦁 Ville dyr","🧱 Murstein","🚗 Parkerte biler","Safarifotografer tar bilder av dyr i naturen."],["Hva er lurt når du fotograferer ville dyr?","🤫 Være stille og holde avstand","📣 Rope høyt","🏃 Løpe mot dem","Ville dyr kan bli redde og farlige."],["Hva er en safari?","🚙 En tur for å se ville dyr","🏖️ En strandtur","🎢 En tur i tivoli","Safari betyr reise på swahili."]],"zan":[["Hva dyrker en krydderbonde?","🌿 Planter som gir krydder","🥛 Melk","🧶 Ull","Krydderbonden dyrker for eksempel nellik og vanilje."],["Hva trenger plantene for å vokse?","☀️ Sol og vann","🍟 Pommes frites","🧊 Is","Alle planter trenger lys og vann."],["Hva er nellik, kanel og vanilje?","🫚 Krydder","🐟 Fisk","👕 Klær","Zanzibar kalles krydderøya."]],"vic":[["Hva gjør en rafting-guide?","🛶 Leder en gummibåt nedover elva","🚁 Flyr helikopter","🧁 Baker kaker","Guiden kjenner elva og styrer båten."],["Hva må alle ha på seg i raftingbåten?","🦺 Redningsvest og hjelm","👑 Krone","🕶️ Bare solbriller","Sikkerhet kommer først på stri elv."],["Hva er rafting?","🌊 Å padle i gummibåt i stri elv","🏊 Å svømme i basseng","🎿 Å stå på ski","Rafting er en vill og morsom tur på elva."]],"kapp":[["Hva gjør en havnearbeider?","🚢 Laster og losser skip","🥕 Selger grønnsaker","🎤 Synger","Havnearbeidere flytter varer mellom skip og land."],["Hva løfter tunge containere?","🏗️ En kran","🪁 En drage","🧲 En liten magnet","Kraner er sterke nok til å løfte containere."],["Hva er en havn?","⚓ Der skip kan legge til kai","🏔️ En fjelltopp","🏜️ Et sted i ørkenen","I havna kommer og går båter og skip."]],"mad":[["Hvor bor lemurer i naturen?","🌴 På Madagaskar","🧊 På Nordpolen","🏙️ I Oslo","Lemurer finnes bare på Madagaskar."],["Hva spiser lemurer mest?","🍌 Frukt og blader","🥩 Bare biff","🍕 Pizza","Lemurer er glad i frukt og grønt."],["Hva gjør en dyrepasser?","🥣 Sørger for at dyrene får mat og har det bra","🎮 Spiller spill med dyrene","💤 Sover hele dagen","Dyrepassere steller dyrene hver dag."]],"dubai":[["Hva selger en tepphandler?","🧶 Tepper","🍞 Brød","🚲 Sykler","Tepper brukes som pynt og varme på gulvet."],["Hvordan lages mange fine tepper?","🧵 Veves av tråder, ofte for hånd","🔨 Hamres ut av jern","🧪 Blandes i en gryte","Å veve et teppe kan ta mange måneder."],["Hva brukes et teppe til?","🏠 Pynt og varme på gulvet","🚗 Drivstoff til bil","🍽️ Mat","Tepper gjør rommet hyggelig og varmt."]],"agra":[["Hva gjør en turistguide?","🗣️ Forteller turister om stedet","🍔 Steker burgere","🔧 Reparerer biler","Guiden viser og forteller om severdigheter."],["Hvilket berømt bygg ligger i Agra?","🕌 Taj Mahal","🗼 Eiffeltårnet","🗽 Frihetsgudinnen","Taj Mahal er en hvit marmorgrav i India."],["Hvordan bør en guide være?","🙂 Snill og flink til å fortelle","😴 Veldig sur","🤐 Helt stille","En god guide gjør turen hyggelig og lærerik."]],"mumbai":[["Hva gjør en danser i en film?","💃 Danser til musikken foran kameraet","🍳 Lager mat","🚌 Kjører buss","Dans er en stor del av indiske filmer."],["Hva kalles Indias store filmindustri?","🎬 Bollywood","🍔 Burgerland","🏊 Aquaworld","Bollywood lager mange filmer hvert år."],["Hvordan blir danserne flinke?","🔁 De øver mange ganger","😴 De sover mye","📺 De ser bare på tv","Øvelse gjør mester."]],"kath":[["Hva gjør en fjellguide?","🥾 Leder turister trygt i fjellet","🏖️ Selger is på stranda","🚇 Kjører T-bane","Fjellguiden kjenner veien og passer på alle."],["Hva bør du ha med på fjelltur?","🎒 Vann, mat og varme klær","🛋️ En sofa","🎈 Tjue ballonger","Været kan bli kaldt og du trenger mat og drikke."],["Hva heter verdens høyeste fjell?","🏔️ Mount Everest","⛰️ Galdhøpiggen","🌋 Vesuv","Mount Everest ligger i Himalaya på grensen mellom Nepal og Kina."]],"bkk":[["Hva gjør en kokk?","🍳 Lager mat på restaurant","🚒 Kjører brannbil","✂️ Klipper hår","Kokken lager maten du spiser."],["Hva er viktig før man lager mat?","🧼 Å vaske hendene","🎤 Å synge","🏃 Å løpe","Rene hender gir trygg mat."],["Hva bruker en kokk for å steke?","🍳 En panne","🧦 En sokk","🎻 En fiolin","Pannen varmes opp på komfyren."]],"sie":[["Hva er et tempel?","🛕 Et sted for bønn og ro","🛒 En butikk","🏟️ En fotballbane","I tempelet ber og mediterer folk."],["Hva gjør man ofte før man går inn i et tempel?","👟 Tar av skoene","🎤 Roper","🏃 Løper inn","Å ta av skoene viser respekt."],["Hvilket stort tempel ligger i Kambodsja?","🛕 Angkor Wat","🏰 Slottet i Oslo","🗼 Eiffeltårnet","Angkor Wat er verdens største tempelanlegg."]],"sgp":[["Hva gjør en hotellportier?","🧳 Bærer kofferter og hjelper gjester","🧑‍🌾 Dyrker mat","🏀 Spiller basket","Portieren tar imot gjestene og hjelper dem."],["Hva er en resepsjon?","🛎️ Skranken der gjester sjekker inn","🛏️ En seng","🍽️ Et kjøkken","Her får gjestene nøkkelen til rommet."],["Hva kalles rommet du sover i på hotell?","🛏️ Hotellrom","🚗 Garasje","🍕 Pizzeria","På hotellrommet kan du hvile og sove."]],"bali":[["Hva dyrker en risbonde?","🌾 Ris","🍎 Epler","🥔 Poteter","Ris er maten til mange milliarder mennesker."],["Hva trenger risplantene mye av?","💧 Vann","🏜️ Sand","🧊 Is","Risåkrene står under vann."],["Hvorfor lager man terrasser i fjellsiden?","⛰️ Så det blir flate åkre og vannet blir værende","🎢 For å lage rutsjebane","🎨 For å tegne på","Terrassene gir flat jord til risplantene."]],"bj":[["Hva spiser pandaer mest?","🎋 Bambus","🥩 Biff","🍕 Pizza","Pandaer spiser bambus mesteparten av dagen."],["Hvilke farger har en panda?","⚫⚪ Svart og hvit","🔴🔵 Rød og blå","🟢🟡 Grønn og gul","Pandaen er kjent for sin svarte og hvite pels."],["Hvilket land kommer pandaer fra?","🇨🇳 Kina","🇳🇴 Norge","🇧🇷 Brasil","Ville pandaer bor i fjellskogene i Kina."]],"ulan":[["Hva gjør en hestegjeter?","🐎 Passer og leder hester ute","🧁 Baker kaker","🛠️ Reparerer biler","Hestene beiter fritt, og gjeteren passer på."],["Hva spiser hester?","🌾 Gress og høy","🍔 Burgere","🍫 Sjokolade","Hester er planteetere."],["Hva heter Mongolias store gressletter?","🌿 Steppen","🌊 Havet","🏙️ Byen","Steppen er flat og full av gress."]],"seoul":[["Hva gjør en danser?","💃 Beveger seg i takt med musikk","🧊 Bygger igloer","🥣 Spiser suppe","Dans er kroppen i bevegelse til musikk."],["Hva må dansere gjøre for å bli flinke?","🔁 Øve mange ganger","😴 Sove hele dagen","📺 Bare se på tv","Øvelse gjør at dansetrinnene sitter."],["Hvilken musikk er kjent fra Sør-Korea?","🎤 K-pop","🪗 Skotsk sekkepipe","🥁 Samba","K-pop er populær over hele verden."]],"tokyo":[["Hva er sushi laget av?","🍣 Ris og ofte fisk eller grønnsaker","🥣 Havregrøt","🍟 Pommes frites","Sushi er laget av riskuler med fisk eller grønt."],["Hva brukes ofte til å spise sushi?","🥢 Spisepinner","🪥 Tannbørste","🔦 Lommelykt","Spisepinner er vanlig i Japan."],["Hva er viktig med fisken til sushi?","🧊 At den er kald og fersk","☀️ At den har ligget i sola","🎨 At den er malt","Fersk fisk smaker best og er tryggest."]],"syd":[["Hva lærer en surfeinstruktør bort?","🏄 Å stå på et brett på bølger","🧮 Å regne","🎹 Å spille piano","Instruktøren viser hvordan du surfer."],["Hva er viktig før man surfer?","☀️ Å smøre seg med solkrem","🧥 Å ta på ulljakke","👞 Å ta på skisko","Sola kan brenne huden på stranda."],["Hva fester man på foten så man ikke mister brettet?","🔗 En surfesnor","🧦 En sokk","🎈 En ballong","Surfesnoren holder brettet nær deg."]],"alice":[["Hvilket land kommer kenguruer fra?","🇦🇺 Australia","🇳🇴 Norge","🇮🇳 India","Kenguruer lever i Australia."],["Hvor bærer kenguruen ungen sin?","👜 I en pung på magen","🎒 På ryggen i en sekk","🧺 I et bur","Ungen kalles joey og bor i pungen."],["Hvordan beveger kenguruer seg raskt?","🦘 Ved å hoppe","🏊 Ved å svømme","🛹 På skateboard","Sterke bakbein gir lange hopp."]],"akl":[["Hva får en seilbåt til å bevege seg?","💨 Vinden i seilene","🔋 Et batteri","🧲 En magnet","Vinden fyller seilene og skyver båten."],["Hva må alle ha på seg på en båt?","🦺 Redningsvest","👑 Krone","🧣 Skjerf","Redningsvest er viktig for sikkerheten."],["Hva er viktig om bord på en seilbåt?","🤝 At alle samarbeider og holder seg fast","🎮 At alle spiller","🛌 At alle sover","Mannskapet må jobbe sammen."]],"hnl":[["Hva binder en kransbinder?","🌺 Kranser av blomster","🧶 Gensere","🚪 Dører","Blomsterkranser er en vakker hilsen."],["Hva kalles en blomsterkrans på Hawaii?","🌺 Lei","🌊 Tsunami","🍍 Ananas","En lei gis som velkomst eller gratulasjon."],["Hva gjør man med en lei?","🤗 Gir den rundt halsen til noen","🍽️ Spiser den","🚿 Vasker med den","Å få en lei er en varm hilsen."]],"ny":[["Hva gjør en DJ?","🎧 Spiller musikk for folk som danser","🍕 Baker pizza","🚕 Kjører taxi","DJ-en velger sanger og holder stemningen oppe."],["Hva bruker en DJ?","🎚️ Mikser og høyttalere","🔨 Hammer","🧴 Såpe","Med mikseren blander DJ-en sangene."],["Hvorfor bytter DJ-en sang uten pause?","💃 Så folk fortsetter å danse","😴 For å få sove","📞 For å ringe","En jevn overgang holder dansegulvet i gang."]],"dc":[["Hva gjør en museumsguide?","🖼️ Forteller om det som er utstilt","🥦 Selger grønnsaker","🚓 Kjører politibil","Guiden forklarer hva du ser på museet."],["Hva er et museum?","🏛️ Et sted med gamle og viktige ting å se","🍔 En burgerkjede","🛁 Et badeland","Museer tar vare på historie og kunst."],["Hva er lurt på en guidet tur?","👂 Å lytte og stille spørsmål","📣 Å rope","🏃 Å løpe rundt","Da lærer du mest."]],"la":[["Hva er en statist?","🎬 Noen som er med i bakgrunnen i en film","🚗 En bilmekaniker","🍰 En kakebaker","Statister gjør filmscenen levende."],["Hva gjør en statist mens kameraet går?","🤫 Gjør det regissøren ber om","📣 Roper til kameraet","🤳 Tar selfie","Statisten følger instruksjonene til regissøren."],["Hvilket sted i Los Angeles er kjent for film?","🎬 Hollywood","🏔️ Alpene","🏝️ Maldivene","Mange filmer lages i Hollywood."]],"sf":[["Hva fanger en krabbefanger?","🦀 Krabber","🐘 Elefanter","🦋 Sommerfugler","Krabbefangeren fanger krabber i havet."],["Hva brukes for å fange krabber?","🧺 Teiner som settes i havet","🪁 En drage","🔦 En lommelykt","Krabben kryper inn i teina og finner ikke ut."],["Hva har krabber som kan klype?","🦞 Klør","🪽 Vinger","🦷 Store tenner","Klørne bruker krabben til å spise og forsvare seg."]],"tor":[["Hva gjør en målvakt?","🧤 Stopper ballen så den ikke går i mål","⚽ Scorer alle målene","🔔 Dømmer kampen","Målvakta er laget siste forsvarer."],["Hva har en målvakt ofte på hendene?","🧤 Keeperhansker","💍 Ringer","🧴 Såpe","Hansker gir godt grep på ballen."],["Hvilken sport er Canada kjent for?","🏒 Ishockey","🏄 Surfing","🏇 Ridning","Ishockey er Canadas nasjonalsport om vinteren."]],"hav":[["Hva gjør en musikant?","🎶 Spiller musikk for andre","🧹 Feier gata","🍦 Selger is","Musikanten gleder folk med sangene sine."],["Hva er maracas?","🎵 Et instrument man rasler med","🍹 En drikk","🚲 En sykkel","Maracas høres i mye latinamerikansk musikk."],["I hvilket land ligger Havana?","🇨🇺 Cuba","🇳🇴 Norge","🇨🇦 Canada","Havana er hovedstaden på Cuba, kjent for musikk og dans."]],"mex":[["Hva er en taco?","🌮 Et lite brød fylt med mat","🍰 En kake","🥣 En suppe","Tacoen er en mexicansk favoritt."],["Hvilket land er taco fra?","🇲🇽 Mexico","🇳🇴 Norge","🇯🇵 Japan","Mexico er kjent for taco og tortilla."],["Hva legger man ofte i en taco?","🥩 Kjøtt, salat og ost","🍫 Sjokolade","🧦 Sokker","Tacofyll kan være kjøtt, grønnsaker og ost."]],"quito":[["Hvor er nord på de fleste kart?","⬆️ Oppover","⬇️ Nedover","↔️ Til siden","På de fleste kart peker nord opp."],["Hva viser retning?","🧭 Et kompass","⏰ En klokke","⚖️ En vekt","Kompassnåla peker mot nord."],["Hvor finner du hva symbolene på et kart betyr?","📖 I tegnforklaringen","🍰 I oppskriften","🎟️ På billetten","Tegnforklaringen forklarer farger og tegn."]],"manaus":[["Hva gjør en fruktplukker?","🍌 Plukker frukt fra trær og busker","🛠️ Reparerer biler","🧹 Feier gater","Fruktplukkere høster fruktene når de er modne."],["Hvilken farge har en moden banan?","🍌 Gul","🟣 Lilla","🔵 Blå","Grønne bananer er ikke modne ennå."],["Hvilken frukt vokser i varme tropiske land?","🥭 Mango","🫐 Norske blåbær","🍎 Norske epler","Mango, banan og papaya vokser i tropene."]],"rio":[["Hva er kaffebønner?","☕ Frø fra kaffeplanten","🥜 Nøtter","🍫 Sjokolade","Bønnene brennes og males til kaffe."],["Hvilket land dyrker mest kaffe i verden?","🇧🇷 Brasil","🇳🇴 Norge","🇮🇸 Island","Brasil er verdens største kaffeprodusent."],["Hva skal du plukke av kaffeplanten?","🍒 Modne røde kaffebær","🍃 Grønne blader","🪨 Steiner","De røde bærene inneholder kaffebønnene."]],"lima":[["Hvor bor lamaer ofte?","🏔️ I fjellene i Sør-Amerika","🏝️ På en øy i Norge","🏙️ I London","Lamaer lever i Andesfjellene."],["Hva brukes lamaull til?","🧶 Varme klær","🍞 Brød","🧱 Murstein","Ullen er varm og myk."],["Hva kan en lama gjøre hvis den blir sur?","💦 Spytte","✈️ Fly","🎤 Synge","Lamaer spytter hvis de blir irritert."]],"bsas":[["Hvilket land er tango fra?","🇦🇷 Argentina","🇳🇴 Norge","🇯🇵 Japan","Tango ble til i Buenos Aires."],["Hvor mange danser tango sammen?","👫 To","👤 Bare én","🧑‍🤝‍🧑 Hundre","Tango er en parsdans."],["Hvilket instrument høres ofte i tango?","🪗 Bandoneon, en slags trekkspill","🎺 Tuba","🥁 Triangel","Bandoneonen gir tangoen sin klang."]],"c_butikk":[["Hva gjør en butikkassistent?","🛒 Hjelper kunder og fyller opp hyllene","✈️ Flyr fly","🚑 Kjører ambulanse","Butikkassistenten hjelper deg å finne varene."],["Hva er en kunde?","🙋 Den som kjøper noe","🏷️ Prisen","🧺 Handlekurven","Kunden handler i butikken."],["Hva viser en pris?","🏷️ Hva noe koster","🕒 Hva klokka er","🌡️ Hvor varmt det er","Prislappen viser hvor mye du må betale."]],"c_kiosk":[["Hva selger en kioskselger?","🍬 Godteri, aviser og drikke","🚗 Biler","🏠 Hus","En kiosk er en liten butikk."],["Hva er vekselpenger?","🪙 Pengene du får tilbake","🧾 En kvittering","🎟️ En billett","Hvis du betaler for mye, får du vekselpenger."],["Hva betyr aldersgrense?","🔞 At noe bare kan selges til folk over en viss alder","🌡️ Hvor varmt det er","🧊 Hvor kald brusen er","Noen varer kan ikke selges til barn."]],"c_gartner":[["Hva gjør en gartner?","🌱 Steller planter og hager","🧵 Syr gardiner","🚒 Slukker brann","Gartneren sørger for at planter og blomster trives."],["Hva trenger planter for å vokse?","☀️ Lys, vann og jord","🍬 Godteri og brus","🔊 Høy musikk","Planter lager mat av sollys."],["Hva bruker gartneren for å vanne?","🚿 Vannkanne eller slange","🔨 Hammer","🪜 Stige","Planter trenger jevnlig vann."]],"c_fugl":[["Hva gjør en fuglekikker?","🔭 Ser på fugler og lærer om dem","🍗 Griller kylling","🏀 Spiller basket","Fuglekikkere kjenner igjen fugler på utseende og sang."],["Hva bruker en fuglekikker?","🔭 Kikkert","🧲 Magnet","🪣 Bøtte","Med kikkert kan du se fuglene på avstand."],["Hva er lurt når du kikker på fugler?","🤫 Å være stille","📢 Å rope","🥁 Å spille trommer","Fuglene blir redde av høye lyder."]],"c_bibliotek":[["Hva er et bibliotek?","📚 Et sted der du kan låne bøker","🛍️ En klesbutikk","🏊 Et svømmebasseng","Du kan låne bøker gratis på biblioteket."],["Hva trenger du for å låne bøker?","💳 Lånekort","🎟️ Konsertbillett","🚌 Bussbillett","Lånekortet viser at du kan låne."],["Hvordan oppfører man seg på biblioteket?","🤫 Stille og rolig","📢 Roper","⚽ Spiller fotball","Andre vil lese i fred."]],"c_guide":[["Hva er en guide?","🧭 Noen som viser vei og forteller","🧑‍🍳 Noen som lager mat","🧑‍🚒 Noen som slukker branner","Guiden kjenner stedet godt."],["Hva kan du se på et historisk museum?","🏺 Gamle ting fra fortiden","🚀 Fremtidens raketter","🍦 Smaker av is","Museer viser hvordan folk levde før."],["Hva kan du spørre guiden om?","❓ Hvor gammel en gjenstand er","🍕 Hva som er til middag","⚽ Hvem som vant i går","Guiden vet mye om utstillingen."]],"c_korist":[["Hva gjør en korist?","🎶 Synger sammen med andre","🏊 Svømmer","🔧 Reparerer","Et kor synger flere stemmer sammen."],["Hva gjør man før man synger?","🗣️ Varmer opp stemmen","🍕 Spiser pizza","🛌 Legger seg","Oppvarming holder stemmen frisk."],["Hvem leder koret?","🪄 Dirigenten","🧑‍🚒 Brannmannen","🧑‍⚕️ Legen","Dirigenten viser takten."]],"c_sirkus":[["Hvor jobber en sirkusartist?","🎪 I et sirkus","🏫 På skolen","🏥 På sykehus","Sirkus har telt, manesje og show."],["Hva kan en sirkusartist gjøre?","🤹 Sjonglere","🚜 Kjøre skogsmaskin","🧮 Regne skatt","Sjonglering krever mye øvelse."],["Hvem gjør folk glade med morsomme påfunn?","🤡 Klovnen","👨‍⚕️ Tannlegen","👮 Politiet","Klovnen får oss til å le."]],"c_pizzabud":[["Hva gjør en pizzabud?","🛵 Kjører pizza hjem til folk","🚒 Slukker brann","🧺 Vasker klær","Pizzabudet bringer maten hjem til døra."],["Hvorfor er pizzaboksen viktig?","📦 Den holder pizzaen varm og hel","🎁 Den er en gave","🎲 Den er et spill","Boksen beskytter pizzaen under turen."],["Hva er viktig i trafikken?","🚦 Å følge reglene og bruke hjelm","🏁 Å kjøre aller fortest","🎧 Å ha høy musikk i ørene","Sikkerhet er viktigere enn fart."]],"c_fotograf":[["Hva bruker en fotograf?","📷 Et kamera","🔨 En hammer","🧯 En brannslokker","Kameraet tar bilder."],["Hva trenger en fotograf mye av for gode bilder?","💡 Lys","🍟 Pommes frites","🔔 Bjeller","Uten lys blir bildet mørkt."],["Hva kalles et bilde du tar av deg selv?","🤳 Selfie","🗺️ Kart","🧾 Kvittering","Selfie kommer fra engelsk «self»."]],"c_gjenvinning":[["Hva er gjenvinning?","♻️ Å bruke avfall til nye ting","🌊 Å kaste alt på havet","🔥 Å brenne alt hjemme","Gjenvinning sparer ressurser."],["Hvor kaster du en tom plastflaske?","♻️ I plastavfall","🌲 I skogen","🌊 I havet","Plast skal sorteres så den kan brukes igjen."],["Hva kan gamle aviser bli til?","📰 Nytt papir","🍕 Pizza","🧸 Bamser","Papir kan gjenvinnes mange ganger."]],"c_post":[["Hva gjør en postsorterer?","✉️ Sorterer brev og pakker etter adresse","🍞 Baker brød","🧹 Feier gater","Sortereren sørger for at posten havner riktig."],["Hva er et postnummer?","🔢 Tall som viser hvilket område adressen er i","📞 Telefonnummeret","🎂 Fødselsdagen","Postnummeret hjelper å sortere raskt."],["Hva må stå på en pakke for at den finner fram?","🏠 Mottakerens adresse","🎵 En sang","🌦️ Været","Uten adresse vet ikke posten hvor pakken skal."]],"c_eple":[["Hva gjør en eplesamler?","🍎 Plukker epler","🚗 Vasker biler","🧱 Murer","Eplesamleren plukker modne epler."],["Hvor vokser epler?","🌳 På epletrær","🌊 På havbunnen","🏜️ I sanda","Epletrær vokser i hager og frukthager."],["Når plukkes epler vanligvis?","🍂 På høsten","❄️ Midt på vinteren","🌙 Bare på natta","Epler er modne om høsten."]],"c_vann":[["Hva gjør en vannbærer?","💧 Bærer vann fra brønn eller elv","🥛 Selger melk","🧼 Vasker biler","Mange steder må noen hente vannet."],["Hvorfor er rent vann viktig?","🥤 Vi trenger det for å drikke og holde oss friske","🎨 Vi trenger det til å male","🔥 Vi trenger det til å brenne","Skittent vann kan gjøre oss syke."],["Hva kan du bære vann i?","🪣 Spann eller krukke","🎈 Ballonger","🧸 Bamser","Spann og krukker holder på vannet."]],"c_tolk":[["Hva gjør en tolk?","🗣️ Oversetter mellom folk som snakker ulike språk","🧁 Baker kaker","🚑 Kjører ambulanse","Tolken hjelper folk å forstå hverandre."],["Hva betyr «Hola» på spansk?","👋 Hei","🍽️ Mat","🚗 Bil","Hola er spansk for hei."],["Hva er lurt å kunne som tolk?","🌍 Mange språk","🏋️ Tunge løft","🧪 Kjemi","Tolken må kunne ordene på begge språk."]],"c_pass":[["Hva sjekker en passkontrollør?","🛂 Pass og om du får komme inn i landet","🥔 Poteter","🚲 Sykkelbremser","Passkontrollen passer på hvem som kommer inn."],["Hva står i passet ditt?","🪪 Navn, bilde og fødselsdato","🍽️ Favorittmat","🧦 Skostørrelse","Passet viser hvem du er."],["Hva kan du få i passet når du besøker et land?","📮 Et stempel","🍬 En sukkerbit","🎈 En ballong","Stempelet viser at du har vært der."]],"c_kart":[["Hva lager en kartlegger?","🗺️ Kart","🍰 Kaker","🧦 Sokker","Kartleggeren måler og tegner landet."],["Hva kan et høydekart vise?","⛰️ Hvor høyt eller lavt landet er","🌡️ Hvor kaldt det er","🍔 Hva maten koster","Linjer viser høyde over havet."],["Hva kan hjelpe med å lage kart fra lufta?","🛰️ Satellitter og fly","🪁 Drager","🪀 Jojo","Bilder fra oven viser hele landskapet."]],"c_pilot":[["Hva gjør en flyassistent?","✈️ Hjelper passasjerene om bord og passer på sikkerheten","🍳 Steker egg","⚽ Spiller fotball","Flyassistenten sørger for at alle har det trygt."],["Hva skal du ha på når flyet tar av og lander?","🔒 Sikkerhetsbelte","🧣 Skjerf","🥽 Svømmebriller","Beltet holder deg på plass."],["Hva heter stedet fly lander og tar av fra?","🛬 Flyplass","🚉 Jernbanestasjon","⚓ Havn","Flyplassen har rullebane og terminal."]],"c_safari":[["Hva gjør en safarihjelper?","🦒 Hjelper turister å se ville dyr trygt","🎪 Er klovn","🛒 Fyller hyller","Safarihjelperen kjenner dyrene og området."],["Hva gjør du når du ser en løve fra bilen?","🚗 Blir i bilen og er stille","🏃 Løper ut","🍖 Mater den","Ville dyr er farlige."],["Hvilke dyr finnes på safari i Afrika?","🐘 Elefant og sjiraff","🐧 Pingvin","🐻‍❄️ Isbjørn","Elefanter og sjiraffer lever på savannen."]],"c_fjell":[["Hva er viktig å ha på fjelltur?","🥾 Gode sko og vann","🩴 Sandaler og brus","🛴 Sparkesykkel","Fjellet krever gode sko og drikke."],["Hva gjør du hvis tåken kommer?","🧭 Holder gruppen samlet og bruker kart og kompass","🏃 Løper av gårde alene","🎤 Synger høyt","I tåke er det lett å gå seg bort."],["Hva er lurt å ha på seg?","🧥 Flere tynne lag med klær","🩱 Badedrakt","👗 Kjole","Lagene kan tas av og på når været skifter."]],"c_reisebyra":[["Hva gjør et reisebyrå?","🧳 Hjelper folk å planlegge og bestille reiser","🍞 Baker brød","🚑 Kjører ambulanse","De finner fly, hotell og turer."],["Hva kan du bestille hos reisebyrået?","✈️ Flybilletter og hotell","🥦 Grønnsaker","🧤 Votter","Reisebyrået ordner tur og overnatting."],["Hva trenger du ofte for å reise til andre land?","🛂 Pass","🧸 Bamse","🍪 Kjeks","Passet viser hvem du er."]],"c_tromme":[["Hva spiller en trommeslager?","🥁 Trommer","🎻 Fiolin","🎷 Saksofon","Trommer gir rytme til musikken."],["Hva bruker trommeslageren for å slå?","🥢 Trommestikker","🔨 Hammer","🎸 Gitar","Stikkene gir lyd når de treffer trommene."],["Hva holder trommeslageren på?","⏱️ Takten og rytmen","🌡️ Temperaturen","💰 Pengene","Trommeslageren gir alle de andre takten."]],"c_resepsjon":[["Hva gjør en resepsjonist?","🛎️ Tar imot gjester og svarer på spørsmål","🍝 Lager pasta","🌳 Feller trær","Resepsjonisten er den første du møter."],["Hva får gjesten av resepsjonisten på hotell?","🔑 Nøkkelkort til rommet","🎟️ Fotballbillett","🐕 En hund","Nøkkelen åpner rommet."],["Hvordan hilser en resepsjonist?","🙂 Vennlig og smilende","😠 Sur","🤐 Uten å si noe","God service starter med et smil."]]};
+const quizNeed=()=>Math.max(2,(GH()?3:2)-(EZ()?1:0));
+const stripEmo=s=>String(s).replace(/[\p{Extended_Pictographic}\p{Regional_Indicator}\uFE0F\u200D]/gu,'').replace(/\s+/g,' ').trim();
+function sayText(t){try{if(!window.speechSynthesis)return;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='nb-NO';u.rate=.95;speechSynthesis.speak(u);}catch(e){}}
+function gameJobQuiz(el,job,fin,pid){
+  const qs=shuffle(PQ[pid]).map(q=>{const o=shuffle([q[1],q[2],q[3]]);return {q:q[0],o,c:o.indexOf(q[1]),e:q[4]};});
+  const need=quizNeed(),canSpeak=!!window.speechSynthesis;let i=0,ok=0,locked=false,dead=false;
+  el.innerHTML=`<div class="gbar"><span id="gt">Yrkesquiz</span><span id="gs">Riktige: 0 / ${need}</span></div><div id="jq"></div>`;
+  function show(){
+    const x=qs[i];locked=false;
+    $('#gt',el).textContent=`Yrkesquiz ${i+1} / ${qs.length}`;
+    $('#jq',el).innerHTML=`<div class="qrow"><div class="mascot">${mascot('hi')}</div><div class="q">${esc(x.q)}</div>${canSpeak?'<button class="say" id="jsay" aria-label="Les opp spørsmålet">🔊</button>':''}</div><div class="opts">${x.o.map((t,k)=>`<button class="opt" data-k="${k}"><span>${esc(t)}</span></button>`).join('')}</div><div class="fb" id="jfb"></div><button class="btn block" id="jnext" style="display:none">${i+1<qs.length?'Neste spørsmål':'Se resultatet'}</button>`;
+    const sb=$('#jsay',el);if(sb)sb.addEventListener('click',()=>sayText(stripEmo(x.q)+'. '+x.o.map(stripEmo).join('. eller ')));
+    $$('.opt',el).forEach(b=>b.addEventListener('click',()=>{
+      if(dead||locked)return;locked=true;const k=+b.dataset.k,good=k===x.c;if(good)ok++;
+      $$('.opt',el).forEach((o,j)=>{o.disabled=true;if(j===x.c)o.classList.add('right');else if(o===b)o.classList.add('wrong');});
+      const fb=$('#jfb',el);fb.style.color=good?'var(--good)':'var(--bad)';
+      fb.textContent=(good?'Riktig! ':'Ikke helt. ')+x.e;
+      $('#gs',el).textContent=`Riktige: ${ok} / ${need}`;
+      const nx=$('#jnext',el);nx.style.display='';
+    }));
+    $('#jnext',el).addEventListener('click',()=>{
+      if(dead||!locked)return;i++;
+      if(i>=qs.length){dead=true;try{speechSynthesis.cancel();}catch(e){}return fin(ok>=need,`Du svarte ${ok} av ${qs.length} riktig på yrkesquizen`);}
+      show();
+    });
+  }
+  show();
+  return ()=>{dead=true;try{if(window.speechSynthesis)speechSynthesis.cancel();}catch(e){}};
+}
+
+/* ----- Kortest vei, Finn stien, Halv oppskrift, Beste kjøp (ideer fra klassiske hjernetrim-oppgaver) ----- */
+
+/* Pizzabud: planlegg den korteste veien innom alle husene */
+function gameRoute(el,job,fin){
+  const g=GH(),N=g?5:4,rounds=3,need=2,tol=(g?1.04:1.12)+(EZ()?.06:0),W=300,H=250,OLc='#2A1B3D';
+  const dist=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y),mt=l=>Math.round(l*2.4);
+  const PER=permsOf(N);
+  let r=0,okR=0,dead=false,M=null,order=[],done=false;
+  const lenOf=(o,m)=>{let l=dist(m.start,m.hs[o[0]]);for(let k=1;k<o.length;k++)l+=dist(m.hs[o[k-1]],m.hs[o[k]]);return l;};
+  function make(){
+    let last=null;
+    for(let t=0;t<150;t++){
+      const pts=[];let c=0;
+      while(pts.length<N+1&&c++<500){const p={x:rnd(36,W-36),y:rnd(42,H-36)};if(pts.every(q=>dist(p,q)>62))pts.push(p);}
+      if(pts.length<N+1)continue;
+      const nums=shuffle([...Array(40).keys()].map(x=>x+3));
+      const m={start:pts[0],hs:pts.slice(1).map((p,i)=>Object.assign(p,{no:nums[i]}))};
+      const lens=PER.map(o=>lenOf(o,m));m.best=Math.min(...lens);m.bestOrder=PER[lens.indexOf(m.best)];
+      last=m;
+      if(lens.filter(l=>l<=m.best*tol).length<=Math.max(1,Math.ceil(PER.length*.2)))return m;
+    }
+    return last;
+  }
+  el.innerHTML=`<div class="gbar"><span id="gt">Kart 1 / ${rounds}</span><span id="gs">Riktige: 0 / ${need}</span></div>
+  <svg class="routesvg" id="rsvg" viewBox="0 0 ${W} ${H}" xmlns="${NS}" role="img" aria-label="Kart med hus"></svg>
+  <p class="prog" id="rinfo"></p>
+  <div class="row2"><button class="btn ghost" id="rundo">↩️ Angre</button><button class="btn" id="rgo" disabled>Lever pizzaene!</button></div>
+  <div class="fb" id="rfb"></div><button class="btn block" id="rnext" style="display:none">Neste kart</button>`;
+  const svg=$('#rsvg',el);
+  function paint(showBest){
+    const pts=[M.start].concat(order.map(i=>M.hs[i]));
+    const line=pts.length>1?`<polyline points="${pts.map(p=>p.x+','+p.y).join(' ')}" fill="none" stroke="${OLc}" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>`:'';
+    const bp=showBest?[M.start].concat(M.bestOrder.map(i=>M.hs[i])):null;
+    const bl=bp?`<polyline points="${bp.map(p=>p.x+','+p.y).join(' ')}" fill="none" stroke="#2EC46D" stroke-width="5" stroke-dasharray="2 9" stroke-linecap="round"/>`:'';
+    const houses=M.hs.map((h,i)=>{const k=order.indexOf(i);return `<g class="hs" data-i="${i}" style="cursor:pointer"><circle cx="${h.x}" cy="${h.y}" r="16" fill="${k>=0?'#FFC22E':'#fff'}" stroke="${OLc}" stroke-width="2.6"/><text x="${h.x}" y="${h.y+5}" font-size="15" text-anchor="middle">🏠</text><text x="${h.x}" y="${h.y+30}" font-size="11" font-weight="800" text-anchor="middle" fill="${OLc}">Nr ${h.no}</text>${k>=0?`<circle cx="${h.x+13}" cy="${h.y-13}" r="9" fill="#FF5E7E" stroke="${OLc}" stroke-width="2"/><text x="${h.x+13}" y="${h.y-9}" font-size="11" font-weight="800" text-anchor="middle" fill="#fff">${k+1}</text>`:''}<circle cx="${h.x}" cy="${h.y}" r="26" fill="transparent"/></g>`;}).join('');
+    svg.innerHTML=`<rect width="${W}" height="${H}" fill="#CFEBB0"/><path d="M0 62H300M0 138H300M0 212H300M72 0V250M158 0V250M238 0V250" stroke="#EADDB6" stroke-width="13"/>${bl}${line}<g><circle cx="${M.start.x}" cy="${M.start.y}" r="17" fill="#FF5E7E" stroke="${OLc}" stroke-width="2.6"/><text x="${M.start.x}" y="${M.start.y+6}" font-size="17" text-anchor="middle">🍕</text></g>${houses}`;
+    const len=pts.reduce((s,p,i)=>i?s+dist(pts[i-1],p):0,0);
+    $('#rinfo',el).textContent=order.length?`Rute så langt: ${mt(len)} m. Husene du har valgt: ${order.length} av ${N}.`:'Trykk på husene i den rekkefølgen du vil kjøre dem.';
+    $('#rgo',el).disabled=done||order.length!==N;$('#rundo',el).disabled=done||!order.length;
+  }
+  function start(){
+    M=make();order=[];done=false;$('#gt',el).textContent=`Kart ${r+1} / ${rounds}`;$('#rfb',el).textContent='';$('#rnext',el).style.display='none';
+    if(window.__test)el.__route=()=>M;paint(false);
+  }
+  svg.addEventListener('click',e=>{
+    if(dead||done)return;const h=e.target.closest('.hs');if(!h)return;
+    const i=+h.dataset.i;if(order.includes(i)){if(order[order.length-1]===i)order.pop();}else order.push(i);paint(false);
+  });
+  $('#rundo',el).addEventListener('click',()=>{if(dead||done)return;order.pop();paint(false);});
+  $('#rgo',el).addEventListener('click',()=>{
+    if(dead||done||order.length!==N)return;done=true;
+    const len=lenOf(order,M),good=len<=M.best*tol;if(good)okR++;
+    const fb=$('#rfb',el);fb.style.color=good?'var(--good)':'var(--bad)';
+    fb.textContent=good?`Bra kjørt! ${mt(len)} m. Den korteste veien er ${mt(M.best)} m.`:`Din rute er ${mt(len)} m. Den korteste er ${mt(M.best)} m (grønn prikkelinje).`;
+    $('#gs',el).textContent=`Riktige: ${okR} / ${need}`;paint(!good||len>M.best+.5);
+    $('#rgo',el).disabled=true;$('#rundo',el).disabled=true;
+    const nx=$('#rnext',el);nx.textContent=r+1<rounds?'Neste kart':'Se resultatet';nx.style.display='';
+  });
+  $('#rnext',el).addEventListener('click',()=>{
+    if(dead||!done)return;r++;
+    if(r>=rounds){dead=true;return fin(okR>=need,`Du kjørte ${okR} av ${rounds} ruter kort nok`);}
+    start();
+  });
+  start();
+  return ()=>{dead=true;};
+}
+
+/* Fjellguide: finn stien til toppen innenfor energien */
+function gamePath(el,job,fin){
+  const g=GH(),W=g?6:5,H=g?6:5,rounds=3,need=2,slack=(g?1:3)+(EZ()?1:0),tlim=g?40:55;
+  let r=0,okR=0,dead=false,tm=0,G=null,path=[],used=0,budget=0,left=0,opt=0,locked=false;
+  const idx=(x,y)=>y*W+x,cost=c=>c==='s'?2:1,DIR=[[1,0],[-1,0],[0,1],[0,-1]];
+  function solve(Gr){
+    const d=Array(W*H).fill(Infinity);d[idx(0,H-1)]=0;const q=[[0,0,H-1]];
+    while(q.length){q.sort((a,b)=>a[0]-b[0]);const [dd,x,y]=q.shift();if(dd>d[idx(x,y)])continue;
+      for(const [dx,dy] of DIR){const nx=x+dx,ny=y+dy;if(nx<0||ny<0||nx>=W||ny>=H)continue;const c=Gr[idx(nx,ny)];if(c==='x')continue;const nd=dd+cost(c);if(nd<d[idx(nx,ny)]){d[idx(nx,ny)]=nd;q.push([nd,nx,ny]);}}}
+    return d[idx(W-1,0)];
+  }
+  function make(){
+    for(let t=0;t<500;t++){
+      const Gr=Array.from({length:W*H},()=>{const v=Math.random();return v<.2?'x':v<.45?'s':'n';});
+      Gr[idx(0,H-1)]='n';Gr[idx(W-1,0)]='n';
+      const o=solve(Gr);
+      if(o<Infinity&&o>=W+H-2+2&&o<=(W+H-2)*1.8)return {Gr,o};
+    }
+    const Gr=Array(W*H).fill('n');for(let k=1;k<W-1;k++)Gr[idx(k,0)]='s';return {Gr,o:solve(Gr)};
+  }
+  el.innerHTML=`<div class="gbar"><span id="gt">Fjell 1 / ${rounds}</span><span id="gs">Riktige: 0 / ${need}</span></div>
+  <div class="gbar"><span id="pe">⚡ Energi: 0</span><span id="pt">⏱ ${tlim} s</span></div>
+  <div class="pgrid" id="pgrid" style="--w:${W}"></div>
+  <p class="prog">Trykk på rutene ved siden av deg for å gå. Snø ❄️ koster 2, en sprekk 🕳️ kan du ikke gå over. Trykk på forrige rute for å gå ett steg tilbake.</p>
+  <div class="row2"><button class="btn ghost" id="pundo">↩️ Angre</button><button class="btn ghost" id="preset">🔄 Start på nytt</button></div><div class="fb" id="pfb"></div>`;
+  const grid=$('#pgrid',el);
+  function paint(){
+    const cur=path[path.length-1],gx=W-1,gy=0;
+    grid.innerHTML=G.map((c,i)=>{
+      const x=i%W,y=(i/W)|0,onp=path.findIndex(p=>p[0]===x&&p[1]===y),isCur=cur[0]===x&&cur[1]===y;
+      let em=c==='x'?'🕳️':c==='s'?'❄️':'';if(x===0&&y===H-1)em='⛺';if(x===gx&&y===gy)em='🚩';if(isCur&&!(x===gx&&y===gy))em='🥾';
+      return `<button class="pc ${c}${onp>=0?' on':''}${isCur?' cur':''}" data-x="${x}" data-y="${y}" aria-label="Rute ${x+1},${y+1}"><span>${em}</span>${c==='s'&&onp<0?'<i>2</i>':''}</button>`;
+    }).join('');
+    $('#pe',el).textContent=`⚡ Energi: ${budget-used} av ${budget}`;
+  }
+  function begin(){
+    const m=make();G=m.Gr;opt=m.o;budget=opt+slack;path=[[0,H-1]];used=0;left=tlim;locked=false;
+    $('#gt',el).textContent=`Fjell ${r+1} / ${rounds}`;$('#pfb',el).textContent='';
+    if(window.__test)el.__path=()=>({G,W,H,budget,opt,used,path,tap:(x,y)=>click(x,y)});
+    paint();clearInterval(tm);
+    tm=setInterval(()=>{if(dead||locked)return;left--;const t=$('#pt',el);if(t)t.textContent='⏱ '+Math.max(0,left)+' s';if(left<=0)end(false,'Tiden gikk ut');},1000/SP());
+  }
+  function end(ok,msg){
+    if(locked||dead)return;locked=true;clearInterval(tm);if(ok)okR++;
+    const fb=$('#pfb',el);fb.style.color=ok?'var(--good)':'var(--bad)';fb.textContent=msg;
+    $('#gs',el).textContent=`Riktige: ${okR} / ${need}`;
+    delay(()=>{if(dead)return;r++;if(r>=rounds){dead=true;return fin(okR>=need,`Du nådde toppen på ${okR} av ${rounds} fjell`);}begin();},1100/Math.min(SP(),4));
+  }
+  function click(x,y){
+    if(dead||locked)return;const cur=path[path.length-1];
+    if(path.length>1&&x===path[path.length-2][0]&&y===path[path.length-2][1]){const c=G[idx(cur[0],cur[1])];used-=cost(c);path.pop();paint();return;}
+    if(Math.abs(x-cur[0])+Math.abs(y-cur[1])!==1)return;
+    if(path.some(p=>p[0]===x&&p[1]===y))return;
+    const c=G[idx(x,y)];const fb=$('#pfb',el);
+    if(c==='x'){fb.style.color='var(--bad)';fb.textContent='Sprekk! Der kan du ikke gå.';return;}
+    if(used+cost(c)>budget){fb.style.color='var(--bad)';fb.textContent='Du har ikke energi nok til det steget. Prøv en annen vei.';return;}
+    fb.textContent='';used+=cost(c);path.push([x,y]);paint();
+    if(x===W-1&&y===0)end(true,'Du nådde toppen! 🚩');
+  }
+  grid.addEventListener('click',e=>{const b=e.target.closest('.pc');if(!b)return;click(+b.dataset.x,+b.dataset.y);});
+  $('#pundo',el).addEventListener('click',()=>{if(dead||locked||path.length<2)return;const cur=path[path.length-1];used-=cost(G[idx(cur[0],cur[1])]);path.pop();paint();});
+  $('#preset',el).addEventListener('click',()=>{if(dead||locked)return;path=[[0,H-1]];used=0;$('#pfb',el).textContent='';paint();});
+  begin();
+  return ()=>{dead=true;clearInterval(tm);};
+}
+
+/* Bakerlærling og kokk: halver (eller gang) oppskriften */
+const HVB=[
+ {e:'🥚',n:'egg',u:'',h:[2,4,6,8],h2:[2,4,6,8],q:[4,8,12],d:[1,2,3,4]},
+ {e:'🥛',n:'melk',u:'dl',h:[2,4,6,8,10],h2:[3,5,7,9],q:[4,8,12],d:[1,2,3,4]},
+ {e:'🌾',n:'mel',u:'dl',h:[2,4,6,8],h2:[3,5,7,9],q:[4,8,12],d:[1,2,3,4]},
+ {e:'🍬',n:'sukker',u:'ss',h:[2,4,6],h2:[3,5],q:[4,8],d:[1,2,3]},
+ {e:'🧈',n:'smør',u:'g',h:[100,200,300,400],h2:[150,250,350],q:[200,400,800],d:[50,100,150,200]},
+ {e:'🍯',n:'honning',u:'ss',h:[2,4,6],h2:[3,5],q:[4,8],d:[1,2,3]},
+ {e:'🧀',n:'ost',u:'g',h:[100,200,300,400],h2:[150,250,350],q:[200,400,800],d:[50,100,150,200]},
+ {e:'🧂',n:'salt',u:'ts',h:[2,4],h2:[1,3],q:[4],d:[1,2]},
+ {e:'🍎',n:'epler',u:'',h:[2,4,6,8],h2:[2,4,6,8],q:[4,8],d:[1,2,3,4]},
+ {e:'🍅',n:'tomater',u:'',h:[2,4,6,8],h2:[2,4,6,8],q:[4,8],d:[1,2,3,4]},
+ {e:'🍫',n:'sjokolade',u:'g',h:[100,200,300,400],h2:[150,250,350],q:[200,400,800],d:[50,100,150,200]},
+ {e:'💧',n:'vann',u:'dl',h:[2,4,6,8],h2:[3,5,7,9],q:[4,8,12],d:[1,2,3,4]}
+];
+function gameHalve(el,job,fin){
+  const g=GH(),n=g?5:4,need=Math.max(2,(g?4:3)-(EZ()?1:0));
+  const fmtN=v=>String(+Number(v).toFixed(1)).replace('.',',');
+  const txt=(it,v)=>`${fmtN(v)} ${it.u?it.u+' ':''}${it.n}`;
+  const kinds=g?shuffle(['half','half','quarter','double','half']):Array(n).fill('half');
+  const qs=shuffle(HVB).slice(0,n).map((it,i)=>{
+    const kind=kinds[i];let base,ans,p1,p2,expl;
+    if(kind==='half'){const arr=(g&&Math.random()<.5)?it.h2:it.h;base=arr[rnd(0,arr.length-1)];ans=base/2;p1=[4,6,8][rnd(0,2)];p2=p1/2;expl=`Halvparten av ${fmtN(base)} er ${fmtN(ans)}.`;}
+    else if(kind==='quarter'){base=it.q[rnd(0,it.q.length-1)];ans=base/4;p1=8;p2=2;expl=`En fjerdedel av ${fmtN(base)} er ${fmtN(ans)}.`;}
+    else{base=it.d[rnd(0,it.d.length-1)];ans=base*2;p1=[2,4][rnd(0,1)];p2=p1*2;expl=`Dobbelt av ${fmtN(base)} er ${fmtN(ans)}.`;}
+    const step=it.u==='g'?50:1;
+    const cands=kind==='half'?[base,base*2,ans+step,ans-step]:kind==='quarter'?[base,base/2,ans+step,ans*3]:[base,base*3,ans+step,ans-step];
+    const wrong=shuffle([...new Set(cands.filter(v=>v>0&&Math.abs(v-ans)>1e-9))]).slice(0,3);
+    while(wrong.length<3){const v=ans+step*(wrong.length+2);if(!wrong.includes(v))wrong.push(v);}
+    const opts=shuffle([ans].concat(wrong));
+    return {it,kind,base,ans,p1,p2,expl,opts,ci:opts.indexOf(ans)};
+  });
+  let i=0,ok=0,locked=false,dead=false;
+  el.innerHTML=`<div class="gbar"><span id="gt">Oppskrift 1 / ${n}</span><span id="gs">Riktige: 0 / ${need}</span></div><div id="hq"></div>`;
+  function show(){
+    const x=qs[i];locked=false;
+    $('#gt',el).textContent=`Oppskrift ${i+1} / ${n}`;
+    if(window.__test)el.__hq=()=>x;
+    $('#hq',el).innerHTML=`<div class="qrow"><div class="mascot">${mascot('hi')}</div><div class="q">Oppskriften er til ${x.p1} personer. Du skal lage til ${x.p2}. Hvor mye ${x.it.n} trenger du?</div></div><div class="rline">${x.it.e} ${txt(x.it,x.base)} <small>til ${x.p1} personer</small></div><div class="opts">${x.opts.map((v,k)=>`<button class="opt" data-k="${k}"><span>${x.it.e} ${txt(x.it,v)}</span></button>`).join('')}</div><div class="fb" id="hfb"></div><button class="btn block" id="hnext" style="display:none">${i+1<n?'Neste':'Se resultatet'}</button>`;
+    $$('.opt',el).forEach(b=>b.addEventListener('click',()=>{
+      if(dead||locked)return;locked=true;const k=+b.dataset.k,good=k===x.ci;if(good)ok++;
+      $$('.opt',el).forEach((o,j)=>{o.disabled=true;if(j===x.ci)o.classList.add('right');else if(o===b)o.classList.add('wrong');});
+      const fb=$('#hfb',el);fb.style.color=good?'var(--good)':'var(--bad)';fb.textContent=(good?'Riktig! ':'Ikke helt. ')+x.expl;
+      $('#gs',el).textContent=`Riktige: ${ok} / ${need}`;$('#hnext',el).style.display='';
+    }));
+    $('#hnext',el).addEventListener('click',()=>{
+      if(dead||!locked)return;i++;
+      if(i>=n){dead=true;return fin(ok>=need,`Du regnet ut ${ok} av ${n} mengder riktig`);}
+      show();
+    });
+  }
+  show();
+  return ()=>{dead=true;};
+}
+
+/* Basarselger og tepphandler: velg best kjøp (lavest pris per stykk) */
+function gameDeal(el,job,fin){
+  const g=GH(),k=g?3:2,rounds=5,need=Math.max(3,4-(EZ()?1:0));
+  const items=(job&&job.items&&job.items.length)?job.items:['krydderposer','tekanner'];
+  const EM=s=>/tepp/.test(s)?'🧶':/krydder/.test(s)?'🌶️':/tekanne/.test(s)?'🫖':'🛍️';
+  const mult=s=>/tepp/.test(s)?10:1;
+  function make(){
+    const nm=items[rnd(0,items.length-1)],m=mult(nm);
+    for(let t=0;t<300;t++){
+      const used=new Set(),offers=[];
+      for(let i=0;i<k;i++){let q,u,c=0;do{q=rnd(2,g?8:6);u=rnd(g?5:6,g?19:18)*m;c++;}while(used.has(u)&&c<30);used.add(u);offers.push({q,u,t:q*u});}
+      const us=offers.map(o=>o.u).sort((a,b)=>a-b);
+      if((us[1]-us[0])/m<(g?1:2)||us[0]===us[1])continue;
+      const best=offers.findIndex(o=>o.u===us[0]);
+      return {nm,offers,best,m};
+    }
+    return {nm,offers:[{q:3,u:10*m,t:30*m},{q:5,u:8*m,t:40*m}].slice(0,k).concat(k>2?[{q:4,u:9*m,t:36*m}]:[]),best:1,m};
+  }
+  const Q=Array.from({length:rounds},make);
+  let i=0,ok=0,locked=false,dead=false;
+  el.innerHTML=`<div class="gbar"><span id="gt">Handel 1 / ${rounds}</span><span id="gs">Riktige: 0 / ${need}</span></div><div id="dq"></div>`;
+  function show(){
+    const x=Q[i];locked=false;$('#gt',el).textContent=`Handel ${i+1} / ${rounds}`;
+    if(window.__test)el.__dq=()=>x;
+    const em=EM(x.nm);
+    $('#dq',el).innerHTML=`<div class="qrow"><div class="mascot">${mascot('hi')}</div><div class="q">Du kjøper inn ${esc(x.nm)}. Hvilket tilbud er best kjøp, altså lavest pris per stk?</div></div><div class="offers">${x.offers.map((o,j)=>`<button class="offer" data-k="${j}"><span class="oe">${em.repeat(o.q)}</span><b>${o.q} stk for ${fmt(o.t)} kr</b></button>`).join('')}</div><div class="fb" id="dfb"></div><button class="btn block" id="dnext" style="display:none">${i+1<rounds?'Neste handel':'Se resultatet'}</button>`;
+    $$('.offer',el).forEach(b=>b.addEventListener('click',()=>{
+      if(dead||locked)return;locked=true;const j=+b.dataset.k,good=j===x.best;if(good)ok++;
+      $$('.offer',el).forEach((o,q)=>{o.disabled=true;if(q===x.best)o.classList.add('right');else if(o===b)o.classList.add('wrong');});
+      const fb=$('#dfb',el);fb.style.color=good?'var(--good)':'var(--bad)';
+      fb.textContent=(good?'Riktig! ':'Ikke helt. ')+'Pris per stk: '+x.offers.map(o=>fmt(o.u)+' kr').join(', ')+'.';
+      $('#gs',el).textContent=`Riktige: ${ok} / ${need}`;$('#dnext',el).style.display='';
+    }));
+    $('#dnext',el).addEventListener('click',()=>{
+      if(dead||!locked)return;i++;
+      if(i>=rounds){dead=true;return fin(ok>=need,`Du fant det beste kjøpet ${ok} av ${rounds} ganger`);}
+      show();
+    });
+  }
+  show();
+  return ()=>{dead=true;};
 }
 
 /* ----- Minispill: regning ----- */
@@ -2180,7 +2480,7 @@ const COMMON=[
  {id:'c_guide',t:'Guide på museet',type:'memory',pay:320,th:'museum'},
  {id:'c_korist',t:'Korist',type:'simon',pay:300,th:'musikk'},
  {id:'c_sirkus',t:'Sirkusartist',type:'simon',pay:330,th:'sirkus'},
- {id:'c_pizzabud',t:'Pizzabud',type:'timing',pay:300,tm:'Stopp markøren i den grønne sonen, så kommer pizzaen varm frem. 🍕'},
+ {id:'c_pizzabud',t:'Pizzabud',type:'route',pay:300},
  {id:'c_fotograf',t:'Fotograf',type:'timing',pay:320,tm:'Stopp markøren i den grønne sonen for å ta bildet akkurat i riktig øyeblikk. 📷'},
  {id:'c_gjenvinning',t:'Gjenvinningsarbeider',type:'sort',pay:300,so:{a:{l:'Papir',e:['📰','📄','📦']},b:{l:'Plast',e:['🥤','🧴','🍼']}}},
  {id:'c_post',t:'Postsorterer',type:'sort',pay:310,so:{a:{l:'Brev',e:['✉️','💌']},b:{l:'Pakker',e:['📦','🎁']}}},
@@ -2197,7 +2497,7 @@ const COMMON=[
  {id:'c_resepsjon',t:'Resepsjonist',type:'faces',pay:320}
 ];
 const PROFS={};CITIES.forEach(c=>{c.job.id=c.id;PROFS[c.id]=c.job;});COMMON.forEach(p=>{PROFS[p.id]=p;});
-const TYPENAME={math:'Regning',click:'Reaksjon',memory:'Huskespill',simon:'Rekkefølge',timing:'Timing',sort:'Sortering',catch:'Fangst',mapfind:'Kart',flag:'Flagg',pack:'Koffert',postcard:'Postkort',bellhop:'Koffertminne',tram:'Trikkestyring',orders:'Flere oppgaver',birds:'Retning',plant:'Logikk',rhythm:'Rytme',faces:'Ansikter og navn'};
+const TYPENAME={math:'Regning',click:'Reaksjon',memory:'Huskespill',simon:'Rekkefølge',timing:'Timing',sort:'Sortering',catch:'Fangst',mapfind:'Kart',flag:'Flagg',pack:'Koffert',postcard:'Postkort',bellhop:'Koffertminne',tram:'Trikkestyring',route:'Ruteplanlegging',path:'Stifinning',halve:'Oppskrift',deal:'Best kjøp',orders:'Flere oppgaver',birds:'Retning',plant:'Logikk',rhythm:'Rytme',faces:'Ansikter og navn'};
 const CLSM={1:.65,2:1,3:1.6};
 const CLSNAME={1:'Enkel jobb',2:'Vanlig jobb',3:'Krevende jobb'};
 function hash(s){let h=0;for(let i=0;i<s.length;i++)h=(h*31+s.charCodeAt(i))>>>0;return h;}
@@ -2351,7 +2651,7 @@ function callHome(){
   if(S.calls>=CALLS[S.diff])return openHotel('☎️ «Nå har du ringt mange ganger. Nå må du klare deg selv!»');
   if(S.money>=500)return openHotel('☎️ «Du har jo masse penger! Spar litt, så kan du ringe når du virkelig trenger det.»');
   const amts=S.diff==='g'?[150,200,250]:[250,300,350],amt=amts[rnd(0,amts.length-1)];
-  S.calls++;S.money+=amt;const liv=advance(1);
+  S.calls++;earn(amt);const liv=advance(1);
   addLog(`☎️ Du ringte hjem og fikk ${fmt(amt)} kr. Pengene kom dagen etter (+1 dag, mat/overnatting ${fmt(liv)} kr).`);
   renderHud();renderLog();
   openHotel(`☎️ «Da hjelper vi deg denne gangen!» Du fikk ${fmt(amt)} kr. Pengene kom først dagen etter, så du mistet en dag.`);
@@ -2369,7 +2669,7 @@ function buyItem(id){
 function sellItem(i){
   const x=S.inv[i];if(!x)return;
   const c=city(S.cur),sp=Math.round(souvPrice(x.id,c)*.9),pr=sp-x.paid;
-  S.money+=sp;S.inv.splice(i,1);addLog(`🛍️ Du solgte ${SOUV[x.id][1]} i ${c.n} for ${fmt(sp)} kr (${pr>=0?'+':''}${fmt(pr)} kr).`);
+  S.money+=sp;S.earned=(S.earned||0)+Math.max(0,pr);S.inv.splice(i,1);addLog(`🛍️ Du solgte ${SOUV[x.id][1]} i ${c.n} for ${fmt(sp)} kr (${pr>=0?'+':''}${fmt(pr)} kr).`);
   renderHud();renderHere();renderLog();
   openShop(pr>=0?`Godt salg! Du tjente ${fmt(pr)} kr.`:`Dette ble et tap på ${fmt(-pr)} kr. Prøv å selge langt unna der du kjøpte.`);
 }
@@ -2461,6 +2761,7 @@ function openHelp(){
     <li><b>Byquizen</b> gir 50 kr per riktige svar og 100 kr i bonus for stempel, og den koster ingen tid første gang. Spørsmålene blandes: om byen, kart og flagg og severdighetene, og mange har en forklaring etter svaret. Trykk 🔊 for å få spørsmålet lest opp.</li>
     <li><b>Innsjekking:</b> på hotellet svarer du på to spørsmål og finner byer på kartet. Jo bedre du gjør det, jo flere av jobbene i avisen kan du søke på. Du må sjekke inn på nytt i hver by.</li>
     <li><b>Jobbavisen</b> har tre annonser i hver by: enkel (⭐), vanlig (⭐⭐) og krevende (⭐⭐⭐). Høy lønnsklasse betaler mer, men er vanskeligere og krever sertifikater. Stempel fra byquizen og dyrt hotell gjør kravene lavere.</li>
+    <li><b>Jobben:</b> når du starter en jobb, trekkes det tilfeldig om du får et <b>minispill</b> eller en kort <b>quiz om yrket</b> (tre spørsmål). Begge gir lønn og sertifikat hvis du klarer kravet.</li>
     <li><b>Sertifikater</b> gjelder i alle byer. Har du sertifikat i en lignende jobb (samme type spill), blir jobben litt lettere. Samme jobb flere ganger gir stadig mindre lønn.</li>
     <li>Fly er raskest og dyrest. Tog og båt er billigere, men tar lengre tid, og tid er det du skal spare.</li>
     <li><b>Sightseeing:</b> se tre severdigheter i hver by. Hver du har sett gir deg ett hint (💡) i byquizen, som tar bort et feil svar.</li>
@@ -2478,7 +2779,49 @@ function openCredits(){
   openModal(head('Bildekreditter')+(rows.length?`<p class="prog">Fotografiene har hver sin lisens og er hentet fra Wikimedia Commons. Resten av bildene i spillet er tegnet for spillet.</p><ul class="help">${rows.join('')}</ul>`:(Object.keys(PH).length?'<p class="prog">Bildene av byene og severdighetene er laget for spillet ved hjelp av KI-bildegenerering (ChatGPT). Der det finnes foto, står kildene her.</p>':'<p class="prog">Spillet bruker foreløpig bare tegninger. Når foto legges til, står kildene her.</p>')));
 }
 function openMenu(){
-  openModal(head('Meny')+`<div class="acts"><button class="btn ghost" data-act="pass">Passet mitt</button><button class="btn ghost" data-act="help">Slik spiller du</button><button class="btn ghost" data-act="credits">📷 Bildekreditter</button><button class="btn ghost" data-act="newgame">Start på nytt</button></div>`);
+  openModal(head('Meny')+`<div class="acts"><button class="btn ghost" data-act="hof" data-s="time">🏆 Hall of Fame</button><button class="btn ghost" data-act="pass">Passet mitt</button><button class="btn ghost" data-act="help">Slik spiller du</button><button class="btn ghost" data-act="credits">📷 Bildekreditter</button><button class="btn ghost" data-act="newgame">Start på nytt</button></div>`);
+}
+
+/* ---------- Hall of Fame ---------- */
+const HOF_KEY='jr-hof';let HOF_MEM=[];
+const hofOk=e=>e&&typeof e.name==='string'&&isFinite(e.day)&&isFinite(e.earned)&&isFinite(e.lands)&&isFinite(e.certs);
+function hofLoad(){try{const v=localStorage.getItem(HOF_KEY);if(v){const a=JSON.parse(v);if(Array.isArray(a))return a.filter(hofOk);}return HOF_MEM.filter(hofOk);}catch(e){return HOF_MEM.filter(hofOk);}}
+function hofStore(a){HOF_MEM=a;try{localStorage.setItem(HOF_KEY,JSON.stringify(a));}catch(e){}}
+function lastName(){try{return localStorage.getItem('jr-name')||'';}catch(e){return '';}}
+function setLastName(n){try{localStorage.setItem('jr-name',n);}catch(e){}}
+const HOF_SORTS={
+  time:{ico:'⏱',lab:'Raskest',key:'day',dir:1,txt:e=>e.day+' dager'},
+  money:{ico:'💰',lab:'Mest penger',key:'earned',dir:-1,txt:e=>fmt(e.earned)+' kr'},
+  lands:{ico:'🌍',lab:'Flest land',key:'lands',dir:-1,txt:e=>e.lands+' land'},
+  certs:{ico:'📜',lab:'Flest sertifikater',key:'certs',dir:-1,txt:e=>e.certs+' sertifikater'}
+};
+function hofCmp(k){const s=HOF_SORTS[k];return (a,b)=>{let d=(a[s.key]-b[s.key])*s.dir;if(d)return d;d=a.day-b.day;if(d)return d;d=b.earned-a.earned;if(d)return d;d=b.lands-a.lands;if(d)return d;d=b.certs-a.certs;if(d)return d;return (a.t||0)-(b.t||0);};}
+function hofRank(list,e,k){const s=HOF_SORTS[k];return 1+list.filter(x=>x.id!==e.id&&((x[s.key]-e[s.key])*s.dir)<0).length;}
+function hofNameModal(){
+  const pre=lastName();
+  openModal(`<div class="result"><div class="mascot big">${mascot('win')}</div><div class="big">🏆</div><h3>Du kom jorda rundt!</h3><p>Skriv navnet ditt for å komme i Hall of Fame og se resultatet.</p><input id="hofname" class="hofinput" type="text" maxlength="18" autocomplete="off" autocapitalize="words" placeholder="Navnet ditt" value="${esc(pre)}" aria-label="Navn"><button class="btn block" id="hofok" data-act="hofsave"${pre.trim()?'':' disabled'}>Lagre og se resultatet</button></div>`);
+  const inp=$('#hofname'),ok=$('#hofok');
+  if(inp&&ok){
+    inp.addEventListener('input',()=>{ok.disabled=!inp.value.trim();});
+    inp.addEventListener('keydown',e=>{if(e.key==='Enter'&&!ok.disabled)ok.click();});
+    setTimeout(()=>{try{inp.focus();inp.select();}catch(e){}},60);
+  }
+}
+function showWinV(){
+  const e=S.hofEntry,list=hofLoad();
+  const best=getBest(S.diff),rec=!best||e.day<best;if(rec)setBest(S.diff,e.day);
+  const rank=e.day<=40?'Globetrotter':e.day<=70?'Erfaren reisende':'Turist';
+  const rks=Object.keys(HOF_SORTS).map(k=>`<div class="hrk"><span>${HOF_SORTS[k].ico} ${HOF_SORTS[k].lab}</span><b>nr. ${hofRank(list,e,k)} av ${list.length}</b></div>`).join('');
+  openModal(`<div class="result"><div class="mascot big">${mascot('win')}</div><div class="big">🏆</div><h3>Bra jobba, ${esc(e.name)}!</h3><div class="stamp">${rank.toUpperCase()}</div><p>Du besøkte alle seks verdensdeler og kom hjem til Oslo på <b>${e.day} dager</b>.<br>Du tjente ${fmt(e.earned)} kr, besøkte ${e.lands} land og tok ${e.certs} sertifikater.<br>${rec?'🎉 Ny rekord for dette nivået!':'Rekorden din er '+best+' dager.'}</p><div class="hofranks">${rks}</div><button class="btn block" data-act="hof" data-s="time" data-h="${esc(e.id)}">🏆 Se Hall of Fame</button><p></p><button class="btn block ghost" data-act="cont">Fortsett å utforske</button><p></p><button class="btn block ghost" data-act="newgame">Ny reise</button></div>`);
+}
+function openHof(k,hid){
+  if(!HOF_SORTS[k])k='time';
+  const all=hofLoad(),list=all.slice().sort(hofCmp(k));
+  const tabs=Object.keys(HOF_SORTS).map(x=>`<button class="hoftab${x===k?' on':''}" data-act="hofsort" data-s="${x}" data-h="${esc(hid||'')}">${HOF_SORTS[x].ico} ${HOF_SORTS[x].lab}</button>`).join('');
+  const medal=i=>i===0?'🥇':i===1?'🥈':i===2?'🥉':String(i+1);
+  const dt=e=>{try{return new Date(e.t).toLocaleDateString('nb-NO',{day:'numeric',month:'short'});}catch(x){return '';}};
+  const rows=list.slice(0,30).map((e,i)=>`<li class="hofrow${e.id===hid?' me':''}"><span class="hr">${medal(i)}</span><div class="hn"><b>${esc(e.name)}</b><small>${e.diff==='g'?'Globetrotter':'Turist'}${e.t?' · '+dt(e):''}</small></div><div class="hs">${Object.keys(HOF_SORTS).map(x=>`<span class="m${x===k?' act':''}">${HOF_SORTS[x].ico} ${HOF_SORTS[x].txt(e)}</span>`).join('')}</div></li>`).join('');
+  openModal(head('🏆 Hall of Fame')+`<div class="hoftabs">${tabs}</div>`+(list.length?`<ol class="hoflist">${rows}</ol>`:'<p class="prog">Ingen er i Hall of Fame ennå. Kom jorda rundt for å bli den første!</p>')+`<p class="prog">Sorter etter tid, penger, land eller sertifikater. Penger tjent er alt du har fått inn på jobber, quiz, telefonsamtaler og suvenirsalg. Listen lagres bare på denne enheten.</p>`+(list.length?'<button class="btn ghost block" data-act="hofclear">Tøm listen</button>':''));
 }
 
 /* ---------- Seier ---------- */
@@ -2487,9 +2830,8 @@ function checkWin(){
   S.won=true;
   const st=Object.keys(S.stamps).length,ce=Object.keys(S.certs).length,lands=Object.keys(S.countries).length;
   if(S.goal==='v'){
-    const best=getBest(S.diff),rec=!best||S.day<best;if(rec)setBest(S.diff,S.day);
-    const rank=S.day<=40?'Globetrotter':S.day<=70?'Erfaren reisende':'Turist';
-    openModal(`<div class="result"><div class="mascot big">${mascot('win')}</div><div class="big">🏆</div><h3>Du kom jorda rundt!</h3><div class="stamp">${rank.toUpperCase()}</div><p>Du besøkte alle seks verdensdeler og kom hjem til Oslo på <b>${S.day} dager</b>.<br>Du besøkte ${lands} land, har ${fmt(S.money)} kr igjen og tok ${st} stempler og ${ce} sertifikater.<br>${rec?'🎉 Ny rekord for dette nivået!':'Rekorden din er '+best+' dager.'}</p><button class="btn block" data-act="cont">Fortsett å utforske</button><p></p><button class="btn block ghost" data-act="newgame">Ny reise</button></div>`);
+    S.hofPending={diff:S.diff,day:S.day,earned:S.earned||0,lands,certs:ce};
+    hofNameModal();
   }else{
     const score=Math.max(0,Math.round(5000+S.money/2+st*60+ce*90-S.day*30));
     const rank=S.day<=60?'Globetrotter':S.day<=100?'Erfaren reisende':'Turist';
@@ -2537,7 +2879,21 @@ const ACT={
   help:()=>{openHelp();},
   menu:()=>{openMenu();},
   credits:()=>{openCredits();},
-  newgame:()=>{closeModal();S=null;renderStart();}
+  newgame:()=>{closeModal();S=null;renderStart();},
+  hof:d=>{openHof(d.s||'time',d.h);},
+  hofsort:d=>{openHof(d.s,d.h);},
+  hofsave:()=>{
+    const inp=$('#hofname');const name=((inp&&inp.value)||'').replace(/\s+/g,' ').trim().slice(0,18);
+    if(!name||!S||!S.hofPending)return;
+    const e=Object.assign({name,id:Date.now().toString(36)+Math.random().toString(36).slice(2,6),t:Date.now()},S.hofPending);
+    S.hofPending=null;S.hofEntry=e;setLastName(name);
+    hofStore(hofLoad().concat([e]).slice(-300));
+    showWinV();
+  },
+  hofclear:(d,t)=>{
+    if(t.dataset.sure){hofStore([]);openHof('time');}
+    else{t.dataset.sure='1';t.textContent='Trykk én gang til for å tømme listen';}
+  }
 };
 document.addEventListener('click',e=>{
   const t=e.target.closest('[data-act]');

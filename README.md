@@ -6,9 +6,11 @@ Et reisespill for barn (ca. 1.–4. klasse). Reis til 55 byer på alle verdensde
 
 - 55 byer med egen illustrasjon, tre spørsmål med bilder og en fakta-setning
 - Landkart med landegrenser, landnavn og flagg
-- 18 minispill: regning, treffsikkerhet, par, rekkefølge, timing, sortering, fang, finn på kartet, flagg, pakk kofferten, postkort, og de nye yrkesspillene koffertminne (hotellportier), kaffebestillinger (barista), lederfugl (fuglekikker), plantelogikk (gartner), rytme (trommeslager) ansikter og navn (resepsjonist) og trikkestyring med sporvekslere (trikkefører)
+- 22 minispill: regning, treffsikkerhet, par, rekkefølge, timing, sortering, fang, finn på kartet, flagg, pakk kofferten, postkort, og de nye yrkesspillene koffertminne (hotellportier), kaffebestillinger (barista), lederfugl (fuglekikker), plantelogikk (gartner), rytme (trommeslager) ansikter og navn (resepsjonist) og trikkestyring med sporvekslere (trikkefører), kortest vei (pizzabud), finn stien (fjellguide), halv oppskrift (bakerlærling og kokk) og beste kjøp (basarselger og tepphandler)
 - To nivåer: Turist og Globetrotter
 - Alle 55 postkort er tegnet i samme tegneserie-stil (kontur, smilende sol, skyer). Stilen styres sentralt av hjelpefunksjonene `A.r`, `A.p`, `A.c`, `A.e`, `A.d` og `A.t` i `index.html`
+- Yrkesquiz: alle 78 yrker har en kort quiz om yrket (3 spørsmål med emoji-svar og forklaring). Når en jobb startes, trekkes det tilfeldig (50/50) om spilleren får quizen eller yrkets minispill. Spørsmålene ligger i konstanten `PQ` i `index.html`
+- Hall of Fame: etter «Jorda rundt» skriver spilleren navnet sitt og havner i en liste som kan sorteres på tid, penger tjent, land og sertifikater. Listen lagres på enheten (nettleserens lagring) og kan tømmes fra Hall of Fame-visningen
 - Tegneserie-design: «reisedagbok med klistremerker» med reven Fia som guide, tykke konturer, varme farger og skrifter som fungerer uten nett
 - Spørsmålsbank som blander håndskrevne spørsmål, spørsmål laget av sightseeing-faktaene og genererte kart- og flaggspørsmål, med forklaring etter hvert svar og vern mot gjentakelser
 - Innsjekking på hotellet (to spørsmål og et kartspill der du finner byer på tid) som avgjør hvilke jobber i avisen du kan søke på

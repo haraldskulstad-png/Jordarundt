@@ -1265,7 +1265,8 @@ let PH={};
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const photoFor=(id,slot)=>{const p=PH[id];if(!p)return null;return slot==='hero'?(p.hero||null):((p.s&&p.s[slot])||null);};
 const crLine=p=>(p&&(p.a||p.l))?`<span class="cr">📷 ${esc(p.a)} · ${esc(p.l)}</span>`:'';
-const photoImg=(id,slot)=>{const p=photoFor(id,slot);return p?`<img class="ph" src="photos/${esc(p.f)}" alt="" loading="lazy">${crLine(p)}`:'';};
+let PHB='photos/';
+const photoImg=(id,slot)=>{const p=photoFor(id,slot);return p?`<img class="ph" src="${PHB}${esc(p.f)}" alt="" loading="lazy">${crLine(p)}`:'';};
 const hero=(id,cap)=>`<div class="hero">${artSvg(id)}${photoImg(id,'hero')}${cap?`<span class="cap">📍 ${cap}</span>`:''}</div>`;
 
 /* ---------- Startskjerm ---------- */
@@ -3270,7 +3271,7 @@ const SIGHTS={
 };
 function openSights(){
   const c=city(S.cur),list=SIGHTS[c.id],seen=S.seen[c.id]||[];
-  const rows=list.map((s,i)=>`<button class="sight ${seen.includes(i)?'done':''}" data-act="sight" data-i="${i}">${photoFor(c.id,i)?`<img class="sth" src="photos/${esc(photoFor(c.id,i).f)}" alt="" loading="lazy">`:`<span class="se">${s[0]}</span>`}<span class="st"><b>${s[1]}</b><small>${seen.includes(i)?s[2]:'Trykk for å se'}</small></span><span class="chk">${seen.includes(i)?'✔':'›'}</span></button>`).join('');
+  const rows=list.map((s,i)=>`<button class="sight ${seen.includes(i)?'done':''}" data-act="sight" data-i="${i}">${photoFor(c.id,i)?`<img class="sth" src="${PHB}${esc(photoFor(c.id,i).f)}" alt="" loading="lazy">`:`<span class="se">${s[0]}</span>`}<span class="st"><b>${s[1]}</b><small>${seen.includes(i)?s[2]:'Trykk for å se'}</small></span><span class="chk">${seen.includes(i)?'✔':'›'}</span></button>`).join('');
   openModal(head('Sightseeing i '+c.n)+hero(c.id,c.lm)+`<p class="prog">Du har sett ${seen.length} av ${list.length}. Hver severdighet du har sett gir deg ett hint i byquizen (💡 tar bort ett feil svar).</p>${rows}`);
 }
 function viewSight(i){
@@ -3279,7 +3280,7 @@ function viewSight(i){
   const first=!S.seen[c.id].includes(i);
   if(first){S.seen[c.id].push(i);addLog(`📸 Du så ${s[1]} i ${c.n}.`);renderLog();renderHere();}
   const n=S.seen[c.id].length;
-  openModal(head(s[1])+`<div class="result">${photoFor(c.id,i)?`<div class="hero photo"><img class="ph" src="photos/${esc(photoFor(c.id,i).f)}" alt="">${crLine(photoFor(c.id,i))}</div>`:`<div class="big" style="font-size:84px">${s[0]}</div>`}<h3>${s[1]}</h3><div class="fact" style="text-align:left">💡 ${s[2]}</div><p>${first?'Nytt!':'Du har sett denne før.'} Du har sett ${n} av 3 i ${c.n}${S.stamps[c.id]?'':', og får '+n+' hint i byquizen'}.</p><button class="btn block" data-act="sights">Tilbake til sightseeing</button></div>`);
+  openModal(head(s[1])+`<div class="result">${photoFor(c.id,i)?`<div class="hero photo"><img class="ph" src="${PHB}${esc(photoFor(c.id,i).f)}" alt="">${crLine(photoFor(c.id,i))}</div>`:`<div class="big" style="font-size:84px">${s[0]}</div>`}<h3>${s[1]}</h3><div class="fact" style="text-align:left">💡 ${s[2]}</div><p>${first?'Nytt!':'Du har sett denne før.'} Du har sett ${n} av 3 i ${c.n}${S.stamps[c.id]?'':', og får '+n+' hint i byquizen'}.</p><button class="btn block" data-act="sights">Tilbake til sightseeing</button></div>`);
 }
 
 /* ---------- Pass, hjelp, meny ---------- */
@@ -3494,7 +3495,9 @@ document.addEventListener('error',e=>{
 },true);
 renderStart();
 if(window.fetch&&/^https?:$/.test(location.protocol)){
-  fetch('photos/photos.json').then(r=>r.ok?r.json():null).then(j=>{if(j){PH=j;if(S&&$('#mapsvg'))renderHere();}}).catch(()=>{});
+  /* bildene ligger vanligvis i photos/, men spillet finner dem også i hovedmappen */
+  const loadPH=(url,base)=>fetch(url).then(r=>r.ok?r.json():null).then(j=>{if(j){PHB=base;PH=j;if(S&&$('#mapsvg'))renderHere();return true;}return false;}).catch(()=>false);
+  loadPH('photos/photos.json','photos/').then(ok=>{if(!ok)loadPH('photos.json','');});
 }
 })();
 </script>

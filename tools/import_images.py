@@ -116,7 +116,7 @@ def main():
     print(f"\nImportert: {len(mapping)} bilder -> {out}")
     for w in warns: print("  ADVARSEL:", w)
     for p in problems: print("  PROBLEM:", p)
-    print(f"Mangler fortsatt {len(missing)} av 220 plasser" + (": " + ", ".join(missing[:20]) + (" …" if len(missing) > 20 else "") if missing else "."))
+    print(f"Mangler fortsatt {len(missing)} av {4*len(SLOTS)} plasser" + (": " + ", ".join(missing[:20]) + (" …" if len(missing) > 20 else "") if missing else "."))
 
 if __name__ == "__main__":
     main()

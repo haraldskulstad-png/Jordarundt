@@ -1,20 +1,24 @@
 # Jorda Rundt 🧭
 
-Et reisespill for barn (ca. 1.–4. klasse). Reis til 55 byer på alle verdensdeler, ta småjobber for å tjene til neste billett, og lær om land, flagg og landemerker underveis.
+Et reisespill for barn (ca. 1.–4. klasse). Reis til 70 byer på alle verdensdeler, ta småjobber for å tjene til neste billett, og lær om land, flagg og landemerker underveis.
 
 **Mål:** besøk alle seks verdensdeler og kom hjem til Oslo på kortest mulig tid. Det finnes også stempeljakt og sertifikatjakt.
 
-- 55 byer med egen illustrasjon, tre spørsmål med bilder og en fakta-setning
+- 70 byer med egen illustrasjon, tre spørsmål med bilder og en fakta-setning
 - Landkart med landegrenser, landnavn og flagg
 - 22 minispill: regning, treffsikkerhet, par, rekkefølge, timing, sortering, fang, finn på kartet, flagg, pakk kofferten, postkort, og de nye yrkesspillene koffertminne (hotellportier), kaffebestillinger (barista), lederfugl (fuglekikker), plantelogikk (gartner), rytme (trommeslager) ansikter og navn (resepsjonist) og trikkestyring med sporvekslere (trikkefører), kortest vei (pizzabud), finn stien (fjellguide), halv oppskrift (bakerlærling og kokk) og beste kjøp (basarselger og tepphandler)
 - To nivåer: Turist og Globetrotter
 - Alle 55 postkort er tegnet i samme tegneserie-stil (kontur, smilende sol, skyer). Stilen styres sentralt av hjelpefunksjonene `A.r`, `A.p`, `A.c`, `A.e`, `A.d` og `A.t` i `index.html`
 - Yrkesquiz: alle 78 yrker har en kort quiz om yrket (3 spørsmål med emoji-svar og forklaring). Når en jobb startes, trekkes det tilfeldig (50/50) om spilleren får quizen eller yrkets minispill. Spørsmålene ligger i konstanten `PQ` i `index.html`
+- 15 nye byer (Asia, Sør-Amerika og Afrika): Hanoi, Petra, Colombo, Samarkand, Bohol, Cartagena, Uyuni, Torres del Paine, Galápagos, Iguazú, Dakar, Timbuktu, Lalibela, Kigali og Sossusvlei. Hver by har postkort, tre severdigheter, tre spørsmål, lokal jobb, yrkesquiz og suvenir. Bildene (nr. 173–217) ligger i `photos/`
+- Fullskjermskart: trykk på kartet (eller «Større kart») for å åpne det i fullskjerm. Man kan dra, knipe eller bruke ＋ og － for å zoome, hoppe til en region, trykke på en by og reise direkte derfra. Bynavnene plasseres automatisk så de ikke overlapper (`placeLabels()` i `index.html`)
+- Reisekart: når spilleren reiser, zoomer kartet fra det lille kartet til full skjerm og kameraet følger fly, tog eller båt. Fly er raskest, båt middels og tog tregest, og «Hopp over» fører deg rett frem. Hastigheten styres i `travelDur()` i `index.html`
+- Spillerplasser og lagring: tre spillerplasser på samme enhet, hver med navn og egen reise. Spillet lagres bare når spilleren sjekker inn på et hotell (eller trykker «Lagre nå» i hotellet), og plassen tømmes når målet er nådd. Lagringen ligger i nettleserens lagring på enheten
 - Hall of Fame: etter «Jorda rundt» skriver spilleren navnet sitt og havner i en liste som kan sorteres på tid, penger tjent, land og sertifikater. Listen lagres på enheten (nettleserens lagring) og kan tømmes fra Hall of Fame-visningen
 - Tegneserie-design: «reisedagbok med klistremerker» med reven Fia som guide, tykke konturer, varme farger og skrifter som fungerer uten nett
 - Spørsmålsbank som blander håndskrevne spørsmål, spørsmål laget av sightseeing-faktaene og genererte kart- og flaggspørsmål, med forklaring etter hvert svar og vern mot gjentakelser
 - Innsjekking på hotellet (to spørsmål og et kartspill der du finner byer på tid) som avgjør hvilke jobber i avisen du kan søke på
-- Bilder av byer og severdigheter: egenlagde tegneserie-illustrasjoner (172 bilder, laget i ChatGPT etter `tools/image_prompts/`) eller foto fra Wikimedia Commons. Tegningene i koden brukes som reserve, så spillet fungerer uten bildene
+- Bilder av byer og severdigheter: egenlagde tegneserie-illustrasjoner (alle 217 bilder er på plass: 172 for de første 55 byene og 45 for de 15 nye er på plass i `photos/`, laget i ChatGPT etter `tools/image_prompts/`) eller foto fra Wikimedia Commons. Tegningene i koden brukes som reserve, så spillet fungerer uten bildene
 - Foto fra Wikimedia Commons (pilot: 10 byer) med kreditering, via skript og kontaktark. Tegningene brukes som reserve. Se `tools/README_photos.md`
 - Byhub med seks ikon-ruter, og sightseeing med tre severdigheter per by (hver gir et hint i byquizen)
 - Jobbavis med tre annonser per by (enkel, vanlig og krevende), lønnsklasser og sertifikater som gjelder i alle byer

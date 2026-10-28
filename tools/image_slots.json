@@ -493,5 +493,140 @@
    "Tango"
   ],
   "hero_same": "s1"
+ },
+ "hanoi": {
+  "name": "Hanoi",
+  "labels": [
+   "Ha Long-bukta",
+   "Mopedene",
+   "Pho"
+  ],
+  "hero_same": "s0"
+ },
+ "petra": {
+  "name": "Petra",
+  "labels": [
+   "Skattkammeret",
+   "Wadi Rum",
+   "Dødehavet"
+  ],
+  "hero_same": "s0"
+ },
+ "colombo": {
+  "name": "Colombo",
+  "labels": [
+   "Sigiriya",
+   "Teplantasjene",
+   "Elefantene"
+  ],
+  "hero_same": "s0"
+ },
+ "samarkand": {
+  "name": "Samarkand",
+  "labels": [
+   "Registan",
+   "Silkeveien",
+   "Samarkand-brød"
+  ],
+  "hero_same": "s0"
+ },
+ "bohol": {
+  "name": "Bohol",
+  "labels": [
+   "Sjokoladebakkene",
+   "Tarsieren",
+   "Delfinene"
+  ],
+  "hero_same": "s0"
+ },
+ "cartagena": {
+  "name": "Cartagena",
+  "labels": [
+   "Bymurene",
+   "Fargerike hus",
+   "Fruktselgerne"
+  ],
+  "hero_same": "s0"
+ },
+ "uyuni": {
+  "name": "Uyuni",
+  "labels": [
+   "Saltsletta",
+   "Flamingoene",
+   "Togkirkegården"
+  ],
+  "hero_same": "s0"
+ },
+ "torres": {
+  "name": "Torres del Paine",
+  "labels": [
+   "Granittårnene",
+   "Grey-breen",
+   "Guanakoene"
+  ],
+  "hero_same": "s0"
+ },
+ "galapagos": {
+  "name": "Galápagos",
+  "labels": [
+   "Kjempeskilpaddene",
+   "Blåfotsulene",
+   "Havleguanene"
+  ],
+  "hero_same": "s0"
+ },
+ "iguazu": {
+  "name": "Iguazú",
+  "labels": [
+   "Iguazú-fallene",
+   "Tukanene",
+   "Båtturen"
+  ],
+  "hero_same": "s0"
+ },
+ "dakar": {
+  "name": "Dakar",
+  "labels": [
+   "Den rosa innsjøen",
+   "Pirogene",
+   "Monumentet"
+  ],
+  "hero_same": "s0"
+ },
+ "timbuktu": {
+  "name": "Timbuktu",
+  "labels": [
+   "Leirmoskeen",
+   "Karavanene",
+   "Sahara"
+  ],
+  "hero_same": "s0"
+ },
+ "lalibela": {
+  "name": "Lalibela",
+  "labels": [
+   "Fjellkirkene",
+   "Kaffeseremonien",
+   "Løperne"
+  ],
+  "hero_same": "s0"
+ },
+ "kigali": {
+  "name": "Kigali",
+  "labels": [
+   "Fjellgorillaene",
+   "Vulkanene",
+   "Trommerne"
+  ],
+  "hero_same": "s0"
+ },
+ "sossusvlei": {
+  "name": "Sossusvlei",
+  "labels": [
+   "Sanddynene",
+   "Deadvlei",
+   "Oryksen"
+  ],
+  "hero_same": "s0"
  }
 }

@@ -1550,6 +1550,411 @@
    "label": "Buenos Aires: Tango",
    "featured": false,
    "subject": "Tango in Buenos Aires: a couple dancing on a cobblestone street, the man in a dark suit and hat, the woman in a red dress, a bandoneón player beside them, colorful houses behind."
+  },
+  {
+   "n": 173,
+   "file": "hanoi_s0.png",
+   "key": "hanoi:s0",
+   "city": "hanoi",
+   "label": "Hanoi: Ha Long-bukta",
+   "featured": true,
+   "subject": "Ha Long Bay: dozens of steep limestone karst islands covered in green vegetation rising from calm turquoise-green water, a traditional wooden junk boat with brown-orange batwing sails in the foreground, soft morning haze."
+  },
+  {
+   "n": 174,
+   "file": "hanoi_s1.png",
+   "key": "hanoi:s1",
+   "city": "hanoi",
+   "label": "Hanoi: Mopedene",
+   "featured": false,
+   "subject": "A busy Hanoi street seen from a viewpoint: a stream of motorbikes, one rider carrying a huge basket of flowers on the back, riders in cone hats, narrow colorful shop-houses with balconies, tangled overhead cables, a yellow colonial-style building."
+  },
+  {
+   "n": 175,
+   "file": "hanoi_s2.png",
+   "key": "hanoi:s2",
+   "city": "hanoi",
+   "label": "Hanoi: Pho",
+   "featured": false,
+   "subject": "A steaming bowl of Vietnamese pho: clear broth, flat rice noodles, slices of beef, green onions and fresh herbs, a lime wedge and chili on the side, chopsticks and a spoon, on a small table with low plastic stools at a street food stall."
+  },
+  {
+   "n": 176,
+   "file": "petra_s0.png",
+   "key": "petra:s0",
+   "city": "petra",
+   "label": "Petra: Skattkammeret",
+   "featured": true,
+   "subject": "The Treasury (Al-Khazneh) in Petra: a grand two-level facade with tall columns, a round central tholos and a broken pediment carved directly into rose-pink sandstone cliff, seen at the end of a narrow canyon, a few tourists tiny at the bottom."
+  },
+  {
+   "n": 177,
+   "file": "petra_s1.png",
+   "key": "petra:s1",
+   "city": "petra",
+   "label": "Petra: Wadi Rum",
+   "featured": false,
+   "subject": "Wadi Rum desert in Jordan: huge red sandstone mountains rising from flat red sand, a Bedouin tent with a campfire, a rider on a camel, a white jeep."
+  },
+  {
+   "n": 178,
+   "file": "petra_s2.png",
+   "key": "petra:s2",
+   "city": "petra",
+   "label": "Petra: Dødehavet",
+   "featured": false,
+   "subject": "The Dead Sea: calm bright blue-green water with white salt crystals along the shore, a person floating on their back reading a newspaper, barren brown mountains behind."
+  },
+  {
+   "n": 179,
+   "file": "colombo_s0.png",
+   "key": "colombo:s0",
+   "city": "colombo",
+   "label": "Colombo: Sigiriya",
+   "featured": true,
+   "subject": "Sigiriya Lion Rock in Sri Lanka: a massive flat-topped rock fortress rising steeply from the jungle, a zigzag staircase and walkway up its side, ruins and trees on the summit, green forest all around."
+  },
+  {
+   "n": 180,
+   "file": "colombo_s1.png",
+   "key": "colombo:s1",
+   "city": "colombo",
+   "label": "Colombo: Teplantasjene",
+   "featured": false,
+   "subject": "Tea plantations in the hills of Sri Lanka: bright green neat rows of tea bushes on steep hillsides, women in colorful saris plucking leaves with baskets on their backs, misty mountains."
+  },
+  {
+   "n": 181,
+   "file": "colombo_s2.png",
+   "key": "colombo:s2",
+   "city": "colombo",
+   "label": "Colombo: Elefantene",
+   "featured": false,
+   "subject": "Asian elephants bathing in a river in Sri Lanka: a big elephant with small ears and a baby elephant splashing, a mahout sitting on one, palm trees on the bank."
+  },
+  {
+   "n": 182,
+   "file": "samarkand_s0.png",
+   "key": "samarkand:s0",
+   "city": "samarkand",
+   "label": "Samarkand: Registan",
+   "featured": true,
+   "subject": "Registan Square in Samarkand: three grand madrasas with huge arched portals covered in blue, turquoise and gold tile patterns, ribbed turquoise domes and tall minarets, a wide open plaza with a few visitors."
+  },
+  {
+   "n": 183,
+   "file": "samarkand_s1.png",
+   "key": "samarkand:s1",
+   "city": "samarkand",
+   "label": "Samarkand: Silkeveien",
+   "featured": false,
+   "subject": "The Silk Road: a caravan of camels loaded with colorful rolls of silk and spice sacks crossing a golden plain toward a distant walled city with blue domes, merchants in long robes walking beside them."
+  },
+  {
+   "n": 184,
+   "file": "samarkand_s2.png",
+   "key": "samarkand:s2",
+   "city": "samarkand",
+   "label": "Samarkand: Samarkand-brød",
+   "featured": false,
+   "subject": "Samarkand bread at a market: stacks of round, flat, patterned breads, a baker in a cap pulling fresh bread from a round clay tandoor oven, a wooden stall."
+  },
+  {
+   "n": 185,
+   "file": "bohol_s0.png",
+   "key": "bohol:s0",
+   "city": "bohol",
+   "label": "Bohol: Sjokoladebakkene",
+   "featured": true,
+   "subject": "Chocolate Hills in Bohol, Philippines: hundreds of smooth, round, identical cone-shaped hills covered in brown dry grass spread across a green plain, seen from a viewing platform with a few visitors."
+  },
+  {
+   "n": 186,
+   "file": "bohol_s1.png",
+   "key": "bohol:s1",
+   "city": "bohol",
+   "label": "Bohol: Tarsieren",
+   "featured": false,
+   "subject": "A Philippine tarsier: a tiny primate with huge round eyes and big ears, long thin fingers gripping a tree branch, soft gray-brown fur, in a green forest."
+  },
+  {
+   "n": 187,
+   "file": "bohol_s2.png",
+   "key": "bohol:s2",
+   "city": "bohol",
+   "label": "Bohol: Delfinene",
+   "featured": false,
+   "subject": "Spinner dolphins leaping out of sparkling water next to a traditional Filipino outrigger boat (bangka) at sunrise, tourists waving from the boat."
+  },
+  {
+   "n": 188,
+   "file": "cartagena_s0.png",
+   "key": "cartagena:s0",
+   "city": "cartagena",
+   "label": "Cartagena: Bymurene",
+   "featured": true,
+   "subject": "The stone city walls of Cartagena, Colombia: thick ramparts with a round lookout turret and old cannons facing the turquoise Caribbean sea, palm trees, a Colombian flag."
+  },
+  {
+   "n": 189,
+   "file": "cartagena_s1.png",
+   "key": "cartagena:s1",
+   "city": "cartagena",
+   "label": "Cartagena: Fargerike hus",
+   "featured": false,
+   "subject": "A street in old Cartagena: colonial houses painted yellow, pink, turquoise and orange with wooden balconies overflowing with pink bougainvillea flowers, a horse-drawn carriage on cobblestones."
+  },
+  {
+   "n": 190,
+   "file": "cartagena_s2.png",
+   "key": "cartagena:s2",
+   "city": "cartagena",
+   "label": "Cartagena: Fruktselgerne",
+   "featured": false,
+   "subject": "Fruit sellers in Cartagena: women in bright yellow, blue and red dresses balancing large bowls of tropical fruit (mango, pineapple, papaya, watermelon) on their heads in a plaza with colonial buildings."
+  },
+  {
+   "n": 191,
+   "file": "uyuni_s0.png",
+   "key": "uyuni:s0",
+   "city": "uyuni",
+   "label": "Uyuni: Saltsletta",
+   "featured": true,
+   "subject": "Salar de Uyuni in Bolivia: an endless flat white salt flat covered by a thin layer of water that mirrors the blue sky and white clouds perfectly, hexagonal salt patterns near the foreground, a small white jeep with tourists far away."
+  },
+  {
+   "n": 192,
+   "file": "uyuni_s1.png",
+   "key": "uyuni:s1",
+   "city": "uyuni",
+   "label": "Uyuni: Flamingoene",
+   "featured": false,
+   "subject": "Andean flamingos in Bolivia: a flock of pink flamingos standing on one leg in a shallow red-tinted lagoon with snow-capped volcanoes behind."
+  },
+  {
+   "n": 193,
+   "file": "uyuni_s2.png",
+   "key": "uyuni:s2",
+   "city": "uyuni",
+   "label": "Uyuni: Togkirkegården",
+   "featured": false,
+   "subject": "The train cemetery near Uyuni: rusty old steam locomotives and railway wagons abandoned in the desert, a few kids climbing on them, clear blue sky."
+  },
+  {
+   "n": 194,
+   "file": "torres_s0.png",
+   "key": "torres:s0",
+   "city": "torres",
+   "label": "Torres del Paine: Granittårnene",
+   "featured": true,
+   "subject": "Torres del Paine in Chilean Patagonia: three tall dark granite towers with sharp tips rising over a turquoise lake, light snow on the peaks, golden steppe grass in the foreground."
+  },
+  {
+   "n": 195,
+   "file": "torres_s1.png",
+   "key": "torres:s1",
+   "city": "torres",
+   "label": "Torres del Paine: Grey-breen",
+   "featured": false,
+   "subject": "Grey Glacier in Patagonia: a huge blue-white glacier front reaching a gray-green lake with floating blue icebergs, mountains on both sides."
+  },
+  {
+   "n": 196,
+   "file": "torres_s2.png",
+   "key": "torres:s2",
+   "city": "torres",
+   "label": "Torres del Paine: Guanakoene",
+   "featured": false,
+   "subject": "A herd of guanacos (slender light-brown camel relatives with white bellies and long necks) on the Patagonian steppe, the granite towers far in the background."
+  },
+  {
+   "n": 197,
+   "file": "galapagos_s0.png",
+   "key": "galapagos:s0",
+   "city": "galapagos",
+   "label": "Galápagos: Kjempeskilpaddene",
+   "featured": true,
+   "subject": "A giant Galápagos tortoise with a huge domed brown shell, long wrinkled neck and thick scaly legs walking on green grass, a small finch perched on its shell."
+  },
+  {
+   "n": 198,
+   "file": "galapagos_s1.png",
+   "key": "galapagos:s1",
+   "city": "galapagos",
+   "label": "Galápagos: Blåfotsulene",
+   "featured": false,
+   "subject": "Blue-footed boobies on volcanic rock in Galápagos: white-and-brown seabirds with bright blue feet performing a courtship dance, one lifting a foot."
+  },
+  {
+   "n": 199,
+   "file": "galapagos_s2.png",
+   "key": "galapagos:s2",
+   "city": "galapagos",
+   "label": "Galápagos: Havleguanene",
+   "featured": false,
+   "subject": "Marine iguanas on black volcanic rocks beside ocean waves in Galápagos: dark gray spiky-backed iguanas piled together, one swimming in the water."
+  },
+  {
+   "n": 200,
+   "file": "iguazu_s0.png",
+   "key": "iguazu:s0",
+   "city": "iguazu",
+   "label": "Iguazú: Iguazú-fallene",
+   "featured": true,
+   "subject": "Iguazú Falls: a huge horseshoe-shaped system of many waterfalls cascading over a cliff into a river in lush rainforest, thick mist and a rainbow, a walkway with a viewing platform and tiny tourists."
+  },
+  {
+   "n": 201,
+   "file": "iguazu_s1.png",
+   "key": "iguazu:s1",
+   "city": "iguazu",
+   "label": "Iguazú: Tukanene",
+   "featured": false,
+   "subject": "A toco toucan with a huge orange-yellow beak with a black tip, black feathers and a white throat sitting on a branch in lush green jungle."
+  },
+  {
+   "n": 202,
+   "file": "iguazu_s2.png",
+   "key": "iguazu:s2",
+   "city": "iguazu",
+   "label": "Iguazú: Båtturen",
+   "featured": false,
+   "subject": "A rubber speedboat full of passengers in orange life jackets right below the thundering Iguazú waterfalls, spray and mist everywhere, everyone laughing."
+  },
+  {
+   "n": 203,
+   "file": "dakar_s0.png",
+   "key": "dakar:s0",
+   "city": "dakar",
+   "label": "Dakar: Den rosa innsjøen",
+   "featured": true,
+   "subject": "Lac Retba, the pink lake near Dakar: bubblegum-pink water beside piles of white salt and pale sand, workers in colorful clothes with buckets, small wooden boats and baobab trees."
+  },
+  {
+   "n": 204,
+   "file": "dakar_s1.png",
+   "key": "dakar:s1",
+   "city": "dakar",
+   "label": "Dakar: Pirogene",
+   "featured": false,
+   "subject": "Pirogues in Senegal: long wooden fishing canoes painted in bright blue, red, yellow and green with patterns, lined up on a sandy beach, fishermen mending nets."
+  },
+  {
+   "n": 205,
+   "file": "dakar_s2.png",
+   "key": "dakar:s2",
+   "city": "dakar",
+   "label": "Dakar: Monumentet",
+   "featured": false,
+   "subject": "The African Renaissance Monument near Dakar: a gigantic bronze statue of a man, a woman and a child on top of a green hill, the man holding the child who points forward, wide steps leading up, blue sky."
+  },
+  {
+   "n": 206,
+   "file": "timbuktu_s0.png",
+   "key": "timbuktu:s0",
+   "city": "timbuktu",
+   "label": "Timbuktu: Leirmoskeen",
+   "featured": true,
+   "subject": "The Djinguereber Mosque in Timbuktu: a large sand-colored mud-brick mosque with a pyramid-shaped minaret and rows of wooden beams sticking out of the walls, desert sky, a few people in colorful robes in the sandy square."
+  },
+  {
+   "n": 207,
+   "file": "timbuktu_s1.png",
+   "key": "timbuktu:s1",
+   "city": "timbuktu",
+   "label": "Timbuktu: Karavanene",
+   "featured": false,
+   "subject": "A camel caravan crossing the Sahara: Tuareg riders in blue robes and turbans leading a long line of camels loaded with white salt slabs over golden sand dunes."
+  },
+  {
+   "n": 208,
+   "file": "timbuktu_s2.png",
+   "key": "timbuktu:s2",
+   "city": "timbuktu",
+   "label": "Timbuktu: Sahara",
+   "featured": false,
+   "subject": "The Sahara desert: endless golden sand dunes with wind ripples, a lone camel, a small tent and a campfire, a sunset-orange sky."
+  },
+  {
+   "n": 209,
+   "file": "lalibela_s0.png",
+   "key": "lalibela:s0",
+   "city": "lalibela",
+   "label": "Lalibela: Fjellkirkene",
+   "featured": true,
+   "subject": "The Church of Saint George in Lalibela, Ethiopia: a cross-shaped church carved from one block of red-brown rock, sunk in a square pit, with three levels of arched windows and a cross-shaped roof seen from above, pilgrims in white robes standing around the edge of the pit."
+  },
+  {
+   "n": 210,
+   "file": "lalibela_s1.png",
+   "key": "lalibela:s1",
+   "city": "lalibela",
+   "label": "Lalibela: Kaffeseremonien",
+   "featured": false,
+   "subject": "An Ethiopian coffee ceremony: a woman in a white dress pouring coffee from a black clay pot (jebena) into tiny cups, roasted beans in a pan, incense smoke, fresh grass spread on the floor, a bowl of popcorn."
+  },
+  {
+   "n": 211,
+   "file": "lalibela_s2.png",
+   "key": "lalibela:s2",
+   "city": "lalibela",
+   "label": "Lalibela: Løperne",
+   "featured": false,
+   "subject": "Ethiopian long-distance runners training on a red dirt road in the green highlands, high knees and big smiles, mountains and eucalyptus trees behind."
+  },
+  {
+   "n": 212,
+   "file": "kigali_s0.png",
+   "key": "kigali:s0",
+   "city": "kigali",
+   "label": "Kigali: Fjellgorillaene",
+   "featured": true,
+   "subject": "A mountain gorilla: a big silverback gorilla sitting calmly in lush green bamboo forest with a baby gorilla beside it, misty green volcano behind."
+  },
+  {
+   "n": 213,
+   "file": "kigali_s1.png",
+   "key": "kigali:s1",
+   "city": "kigali",
+   "label": "Kigali: Vulkanene",
+   "featured": false,
+   "subject": "The Virunga volcanoes in Rwanda: cone-shaped green volcanoes rising above low clouds, terraced hillsides with small farms and banana trees in front."
+  },
+  {
+   "n": 214,
+   "file": "kigali_s2.png",
+   "key": "kigali:s2",
+   "city": "kigali",
+   "label": "Kigali: Trommerne",
+   "featured": false,
+   "subject": "Rwandan drummers: a group of men in traditional costume playing big wooden drums with sticks while dancing, colorful clothes, a green hillside behind."
+  },
+  {
+   "n": 215,
+   "file": "sossusvlei_s0.png",
+   "key": "sossusvlei:s0",
+   "city": "sossusvlei",
+   "label": "Sossusvlei: Sanddynene",
+   "featured": true,
+   "subject": "The Namib desert dunes at Sossusvlei: towering red-orange sand dunes with sharp ridges, one side sunlit and the other in shadow, tiny hiker figures climbing a ridge, deep blue sky."
+  },
+  {
+   "n": 216,
+   "file": "sossusvlei_s1.png",
+   "key": "sossusvlei:s1",
+   "city": "sossusvlei",
+   "label": "Sossusvlei: Deadvlei",
+   "featured": false,
+   "subject": "Deadvlei in Namibia: dead black camel thorn trees standing on a white cracked clay pan surrounded by tall red sand dunes, deep blue sky."
+  },
+  {
+   "n": 217,
+   "file": "sossusvlei_s2.png",
+   "key": "sossusvlei:s2",
+   "city": "sossusvlei",
+   "label": "Sossusvlei: Oryksen",
+   "featured": false,
+   "subject": "Two oryx (gemsbok) antelopes with long straight horns and black-and-white face markings standing on red sand with dunes behind."
   }
  ],
  "reminder": "STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text."

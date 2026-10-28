@@ -1,0 +1,260 @@
+PROMPTER FOR 15 NYE BYER: bilde 173–217
+Lag ett bilde per melding i ChatGPT-prosjektet (samme oppsett som før). Nummer og filnavn i overskriften skal ikke endres.
+Start en NY chat i prosjektet for hver 15 bilder, og legg ved de tre godkjente referansebildene i første melding i hver ny chat.
+Hvert bilde skal ha reisegruppen (tre barn med stråhatter) nederst til venstre, og solen skal være synlig og ikke kuttet.
+Tips: lag s0 for hver by først (det vises på bykortet), og s1/s2 etterpå.
+======================================================================
+
+### Hanoi (Vietnam)
+
+Bilde 173/217 | hanoi_s0.png | Hanoi: Ha Long-bukta
+Ha Long Bay: dozens of steep limestone karst islands covered in green vegetation rising from calm turquoise-green water, a traditional wooden junk boat with brown-orange batwing sails in the foreground, soft morning haze.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 174/217 | hanoi_s1.png | Hanoi: Mopedene
+A busy Hanoi street seen from a viewpoint: a stream of motorbikes, one rider carrying a huge basket of flowers on the back, riders in cone hats, narrow colorful shop-houses with balconies, tangled overhead cables, a yellow colonial-style building.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 175/217 | hanoi_s2.png | Hanoi: Pho
+A steaming bowl of Vietnamese pho: clear broth, flat rice noodles, slices of beef, green onions and fresh herbs, a lime wedge and chili on the side, chopsticks and a spoon, on a small table with low plastic stools at a street food stall.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+### Petra (Jordan)
+
+Bilde 176/217 | petra_s0.png | Petra: Skattkammeret
+The Treasury (Al-Khazneh) in Petra: a grand two-level facade with tall columns, a round central tholos and a broken pediment carved directly into rose-pink sandstone cliff, seen at the end of a narrow canyon, a few tourists tiny at the bottom.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 177/217 | petra_s1.png | Petra: Wadi Rum
+Wadi Rum desert in Jordan: huge red sandstone mountains rising from flat red sand, a Bedouin tent with a campfire, a rider on a camel, a white jeep.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 178/217 | petra_s2.png | Petra: Dødehavet
+The Dead Sea: calm bright blue-green water with white salt crystals along the shore, a person floating on their back reading a newspaper, barren brown mountains behind.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+### Colombo (Sri Lanka)
+
+Bilde 179/217 | colombo_s0.png | Colombo: Sigiriya
+Sigiriya Lion Rock in Sri Lanka: a massive flat-topped rock fortress rising steeply from the jungle, a zigzag staircase and walkway up its side, ruins and trees on the summit, green forest all around.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 180/217 | colombo_s1.png | Colombo: Teplantasjene
+Tea plantations in the hills of Sri Lanka: bright green neat rows of tea bushes on steep hillsides, women in colorful saris plucking leaves with baskets on their backs, misty mountains.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 181/217 | colombo_s2.png | Colombo: Elefantene
+Asian elephants bathing in a river in Sri Lanka: a big elephant with small ears and a baby elephant splashing, a mahout sitting on one, palm trees on the bank.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+### Samarkand (Usbekistan)
+
+Bilde 182/217 | samarkand_s0.png | Samarkand: Registan
+Registan Square in Samarkand: three grand madrasas with huge arched portals covered in blue, turquoise and gold tile patterns, ribbed turquoise domes and tall minarets, a wide open plaza with a few visitors.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 183/217 | samarkand_s1.png | Samarkand: Silkeveien
+The Silk Road: a caravan of camels loaded with colorful rolls of silk and spice sacks crossing a golden plain toward a distant walled city with blue domes, merchants in long robes walking beside them.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 184/217 | samarkand_s2.png | Samarkand: Samarkand-brød
+Samarkand bread at a market: stacks of round, flat, patterned breads, a baker in a cap pulling fresh bread from a round clay tandoor oven, a wooden stall.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+### Bohol (Filippinene)
+
+Bilde 185/217 | bohol_s0.png | Bohol: Sjokoladebakkene
+Chocolate Hills in Bohol, Philippines: hundreds of smooth, round, identical cone-shaped hills covered in brown dry grass spread across a green plain, seen from a viewing platform with a few visitors.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 186/217 | bohol_s1.png | Bohol: Tarsieren
+A Philippine tarsier: a tiny primate with huge round eyes and big ears, long thin fingers gripping a tree branch, soft gray-brown fur, in a green forest.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 187/217 | bohol_s2.png | Bohol: Delfinene
+Spinner dolphins leaping out of sparkling water next to a traditional Filipino outrigger boat (bangka) at sunrise, tourists waving from the boat.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+### Cartagena (Colombia)
+
+Bilde 188/217 | cartagena_s0.png | Cartagena: Bymurene
+The stone city walls of Cartagena, Colombia: thick ramparts with a round lookout turret and old cannons facing the turquoise Caribbean sea, palm trees, a Colombian flag.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 189/217 | cartagena_s1.png | Cartagena: Fargerike hus
+A street in old Cartagena: colonial houses painted yellow, pink, turquoise and orange with wooden balconies overflowing with pink bougainvillea flowers, a horse-drawn carriage on cobblestones.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 190/217 | cartagena_s2.png | Cartagena: Fruktselgerne
+Fruit sellers in Cartagena: women in bright yellow, blue and red dresses balancing large bowls of tropical fruit (mango, pineapple, papaya, watermelon) on their heads in a plaza with colonial buildings.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+### Uyuni (Bolivia)
+
+Bilde 191/217 | uyuni_s0.png | Uyuni: Saltsletta
+Salar de Uyuni in Bolivia: an endless flat white salt flat covered by a thin layer of water that mirrors the blue sky and white clouds perfectly, hexagonal salt patterns near the foreground, a small white jeep with tourists far away.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 192/217 | uyuni_s1.png | Uyuni: Flamingoene
+Andean flamingos in Bolivia: a flock of pink flamingos standing on one leg in a shallow red-tinted lagoon with snow-capped volcanoes behind.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 193/217 | uyuni_s2.png | Uyuni: Togkirkegården
+The train cemetery near Uyuni: rusty old steam locomotives and railway wagons abandoned in the desert, a few kids climbing on them, clear blue sky.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+### Torres del Paine (Chile)
+
+Bilde 194/217 | torres_s0.png | Torres del Paine: Granittårnene
+Torres del Paine in Chilean Patagonia: three tall dark granite towers with sharp tips rising over a turquoise lake, light snow on the peaks, golden steppe grass in the foreground.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 195/217 | torres_s1.png | Torres del Paine: Grey-breen
+Grey Glacier in Patagonia: a huge blue-white glacier front reaching a gray-green lake with floating blue icebergs, mountains on both sides.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 196/217 | torres_s2.png | Torres del Paine: Guanakoene
+A herd of guanacos (slender light-brown camel relatives with white bellies and long necks) on the Patagonian steppe, the granite towers far in the background.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+### Galápagos (Ecuador)
+
+Bilde 197/217 | galapagos_s0.png | Galápagos: Kjempeskilpaddene
+A giant Galápagos tortoise with a huge domed brown shell, long wrinkled neck and thick scaly legs walking on green grass, a small finch perched on its shell.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 198/217 | galapagos_s1.png | Galápagos: Blåfotsulene
+Blue-footed boobies on volcanic rock in Galápagos: white-and-brown seabirds with bright blue feet performing a courtship dance, one lifting a foot.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 199/217 | galapagos_s2.png | Galápagos: Havleguanene
+Marine iguanas on black volcanic rocks beside ocean waves in Galápagos: dark gray spiky-backed iguanas piled together, one swimming in the water.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+### Iguazú (Argentina)
+
+Bilde 200/217 | iguazu_s0.png | Iguazú: Iguazú-fallene
+Iguazú Falls: a huge horseshoe-shaped system of many waterfalls cascading over a cliff into a river in lush rainforest, thick mist and a rainbow, a walkway with a viewing platform and tiny tourists.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 201/217 | iguazu_s1.png | Iguazú: Tukanene
+A toco toucan with a huge orange-yellow beak with a black tip, black feathers and a white throat sitting on a branch in lush green jungle.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 202/217 | iguazu_s2.png | Iguazú: Båtturen
+A rubber speedboat full of passengers in orange life jackets right below the thundering Iguazú waterfalls, spray and mist everywhere, everyone laughing.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+### Dakar (Senegal)
+
+Bilde 203/217 | dakar_s0.png | Dakar: Den rosa innsjøen
+Lac Retba, the pink lake near Dakar: bubblegum-pink water beside piles of white salt and pale sand, workers in colorful clothes with buckets, small wooden boats and baobab trees.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 204/217 | dakar_s1.png | Dakar: Pirogene
+Pirogues in Senegal: long wooden fishing canoes painted in bright blue, red, yellow and green with patterns, lined up on a sandy beach, fishermen mending nets.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 205/217 | dakar_s2.png | Dakar: Monumentet
+The African Renaissance Monument near Dakar: a gigantic bronze statue of a man, a woman and a child on top of a green hill, the man holding the child who points forward, wide steps leading up, blue sky.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+### Timbuktu (Mali)
+
+Bilde 206/217 | timbuktu_s0.png | Timbuktu: Leirmoskeen
+The Djinguereber Mosque in Timbuktu: a large sand-colored mud-brick mosque with a pyramid-shaped minaret and rows of wooden beams sticking out of the walls, desert sky, a few people in colorful robes in the sandy square.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 207/217 | timbuktu_s1.png | Timbuktu: Karavanene
+A camel caravan crossing the Sahara: Tuareg riders in blue robes and turbans leading a long line of camels loaded with white salt slabs over golden sand dunes.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 208/217 | timbuktu_s2.png | Timbuktu: Sahara
+The Sahara desert: endless golden sand dunes with wind ripples, a lone camel, a small tent and a campfire, a sunset-orange sky.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+### Lalibela (Etiopia)
+
+Bilde 209/217 | lalibela_s0.png | Lalibela: Fjellkirkene
+The Church of Saint George in Lalibela, Ethiopia: a cross-shaped church carved from one block of red-brown rock, sunk in a square pit, with three levels of arched windows and a cross-shaped roof seen from above, pilgrims in white robes standing around the edge of the pit.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 210/217 | lalibela_s1.png | Lalibela: Kaffeseremonien
+An Ethiopian coffee ceremony: a woman in a white dress pouring coffee from a black clay pot (jebena) into tiny cups, roasted beans in a pan, incense smoke, fresh grass spread on the floor, a bowl of popcorn.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 211/217 | lalibela_s2.png | Lalibela: Løperne
+Ethiopian long-distance runners training on a red dirt road in the green highlands, high knees and big smiles, mountains and eucalyptus trees behind.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+### Kigali (Rwanda)
+
+Bilde 212/217 | kigali_s0.png | Kigali: Fjellgorillaene
+A mountain gorilla: a big silverback gorilla sitting calmly in lush green bamboo forest with a baby gorilla beside it, misty green volcano behind.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 213/217 | kigali_s1.png | Kigali: Vulkanene
+The Virunga volcanoes in Rwanda: cone-shaped green volcanoes rising above low clouds, terraced hillsides with small farms and banana trees in front.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 214/217 | kigali_s2.png | Kigali: Trommerne
+Rwandan drummers: a group of men in traditional costume playing big wooden drums with sticks while dancing, colorful clothes, a green hillside behind.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+### Sossusvlei (Namibia)
+
+Bilde 215/217 | sossusvlei_s0.png | Sossusvlei: Sanddynene
+The Namib desert dunes at Sossusvlei: towering red-orange sand dunes with sharp ridges, one side sunlit and the other in shadow, tiny hiker figures climbing a ridge, deep blue sky.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 216/217 | sossusvlei_s1.png | Sossusvlei: Deadvlei
+Deadvlei in Namibia: dead black camel thorn trees standing on a white cracked clay pan surrounded by tall red sand dunes, deep blue sky.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.
+
+
+Bilde 217/217 | sossusvlei_s2.png | Sossusvlei: Oryksen
+Two oryx (gemsbok) antelopes with long straight horns and black-and-white face markings standing on red sand with dunes behind.
+STYLE CHECK: flat cel-shaded cartoon with bold dark-plum outlines, outlined clouds and a smiling sun (center ~20% down from the top, fully visible), exactly like the approved images; never photo-realistic or painterly. Include the same three-child travel trio bottom-left. No text.

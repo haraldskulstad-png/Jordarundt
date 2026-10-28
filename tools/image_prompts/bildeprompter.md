@@ -384,3 +384,6 @@ Bruk de tre godkjente bildene `godkjent_1_nuuk.jpg`, `godkjent_2_geysir.jpg` og 
 - **Sightseeing 1:** Obelisken → lag `bsas_s0.png`
 - **Sightseeing 2:** La Boca → lag `bsas_s1.png`
 - **Sightseeing 3:** Tango → lag `bsas_s2.png`
+
+## Tillegg: 15 nye byer (bilde 173–217)
+De 15 nye byene har egne prompter i `prompter_nye_byer.txt`, i samme format og med samme stil. Hver by har tre bilder (`s0`, `s1`, `s2`), og det utvalgte bildet på bykortet gjenbruker `s0`. Nummereringen fortsetter fra 173, så import etter nummer fungerer som før.
